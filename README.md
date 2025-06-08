@@ -120,8 +120,17 @@ Berikut adalah penjelasan singkat mengenai fitur/variabel dalam dataset prediksi
 - status_DO: Label target, yaitu apakah mahasiswa termasuk kategori Drop Out (Ya) atau Tidak (Tidak).
 
 **exploratory data analysis**:
+
 - Ini beberapa tahapan yang dilakukan untuk memahami data :
-![Image](https://github.com/user-attachments/assets/2c34c81b-27bd-4021-b344-5ae14dd39fc9)
+
+![Image](https://github.com/user-attachments/assets/56972c34-a26e-43b0-bff2-c89786d89754)
+
+![Image](https://github.com/user-attachments/assets/8b65818f-28a1-405c-a335-7fc47679f59e)
+
+![Image](https://github.com/user-attachments/assets/d58df53f-d531-4676-94a4-8152614fb4c0)
+
+![Image](https://github.com/user-attachments/assets/890f6f52-cff4-4051-964d-ade1c19c8dc7)
+
 - **Histogram**
 - Rating: Terlihat mayoritas nilai Rating berkisar di antara 4 dan 5, artinya sebagian besar aplikasi mendapatkan penilaian bagus.
 - Rating Count: Distribusinya sangat condong ke kiri (right-skewed), sebagian besar aplikasi hanya memiliki sedikit rating.
