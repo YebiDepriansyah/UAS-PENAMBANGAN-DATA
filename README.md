@@ -715,79 +715,111 @@ Kekurangan:
 3. Sensitif terhadap parameter dan skala fitur – Harus distandardisasi terlebih dahulu.
 
 
-
 ## Evaluation
-1. ### Evaluasi Pendekatan Content-Based Filtering
-Evaluasi sistem rekomendasi dilakukan untuk mengukur sejauh mana hasil rekomendasi yang dihasilkan oleh model dapat dianggap relevan, bervariasi, dan tidak terlalu seragam. Dalam proyek ini, digunakan tiga metrik evaluasi utama yang umum digunakan dalam sistem rekomendasi:
 
-#### 1. Precision@K
-**Definisi:**
-Precision@K mengukur proporsi item yang relevan dari total item yang direkomendasikan sebanyak K.
-**Formula:**
-![Image](https://github.com/user-attachments/assets/3f821a9b-69bd-459e-9494-b27e886af4bc)
-**Implementasi:**
-Sebuah rekomendasi dianggap relevan jika aplikasi yang direkomendasikan memiliki kategori yang sama dengan aplikasi input.
+### Metrik Evaluasi yang Digunakan
 
-**Hasil:**
+Dalam proyek ini, digunakan empat metrik utama untuk mengukur performa model klasifikasi dalam memprediksi Drop Out pada mahasiswa (Tidak, atau Ya), yaitu:
 
-![Image](https://github.com/user-attachments/assets/720af300-3f7d-4326-ac10-44ced8b6bc1b)
-
-Untuk beberapa aplikasi seperti:
-- Supermarket Deal Calculator: Precision@10 =  1.00
-- Happy birth: Precision@10 =  1.00
-- 40 Hadist Peristiwa Akhir Zaman: Precision@10 = 1.00
-
-Kesimpulan:
-Sistem berhasil merekomendasikan aplikasi yang sangat relevan (semua rekomendasi sesuai kategori aplikasi awal), terbukti dari nilai precision yang mencapai 100%.
-
-
-
-#### 2. Diversity Score
-**Definisi:**
-Diversity score mengukur seberapa beragam kategori dari aplikasi yang direkomendasikan. Semakin banyak kategori berbeda dalam daftar rekomendasi, semakin tinggi nilai diversitas.
-
-![Image](https://github.com/user-attachments/assets/8ec0e5e9-c8f1-448e-9cd0-00e71d81c62f)
-
-**Hasil:**
-
-![Image](https://github.com/user-attachments/assets/e0e5ec79-db4e-4908-909d-0a758be93b37)
-
-Supermarket Deal Calculator → Diversity Score: 0.10
-Happy birth → Diversity Score: 0.10
-40 Hadist Peristiwa Akhir Zaman → Diversity Score: 0.20
-
-Kesimpulan:
-Skor diversity tergolong rendah, yang artinya sistem cenderung merekomendasikan aplikasi dari kategori yang serupa. Hal ini bisa disebabkan oleh pendekatan content-based filtering yang mengutamakan kemiripan fitur.
-
-#### 3. Intra-list Similarity (ILS)
-**Definisi:**
-ILS mengukur seberapa mirip aplikasi-aplikasi dalam daftar rekomendasi satu sama lain. Semakin rendah ILS, maka semakin beragam dan tidak terlalu seragam item rekomendasinya.
-
-![Image](https://github.com/user-attachments/assets/2a2ad68d-20c5-4378-acce-bad03219cbf4)
-
-**Hasil:**
-
-![Image](https://github.com/user-attachments/assets/42e80aa9-b2c4-4a75-a0de-f42da840d7d0)
-
-Supermarket Deal Calculator → ILS: 1.00
-Happy birth → ILS: 1.00
-40 Hadist Peristiwa Akhir Zaman → ILS: 1.00
-
-Kesimpulan:
-Nilai ILS yang tinggi menunjukkan bahwa aplikasi yang direkomendasikan sangat mirip satu sama lain. Ini bisa jadi menguntungkan dalam konteks pencarian aplikasi sejenis, namun bisa juga menjadi kelemahan jika pengguna menginginkan variasi yang lebih luas.
-
-2. ### Evaluasi Popularity-Based Recommendation
+1. Accuracy (Akurasi)
    
-![Image](https://github.com/user-attachments/assets/fbd9b68e-3c29-4e7b-a0a5-3ba546bf076d)
+   Definisi: Mengukur seberapa banyak prediksi model yang benar dibandingkan dengan seluruh data.
 
-Pendekatan ini memberikan rekomendasi berdasarkan aplikasi yang memiliki jumlah pemasangan tertinggi, jumlah rating terbanyak, dan rating rata-rata tertinggi.
+   Cara Kerja: Jumlah prediksi benar dibagi total prediksi.
+   
+   Catatan: Cocok untuk data seimbang, tapi bisa menyesatkan jika data tidak seimbang.
 
-Statistik deskriptif untuk 10 aplikasi terpopuler menunjukkan bahwa:
-- Rata-rata jumlah rating adalah 427 untuk setiap aplikasi, tanpa variasi.
-- Nilai rating bervariasi dari 4.3 hingga 4.9, dengan rata-rata 4.77, dan standar deviasi 0.17, menandakan semua aplikasi sangat populer dan disukai.
-Analisis korelasi antar metrik menunjukkan bahwa terdapat korelasi negatif yang kuat antara jumlah pemasangan dan rating (nilai korelasi sekitar -0.97). Artinya, aplikasi yang paling banyak diunduh tidak selalu mendapatkan rating tertinggi. Data ini memberikan wawasan bahwa popularitas berdasarkan jumlah pemasangan tidak selalu mencerminkan kualitas aplikasi berdasarkan penilaian pengguna.
+3. Precision (Presisi)
+   
+   Definisi: Seberapa tepat model dalam memprediksi suatu kelas tertentu — dari semua prediksi positif, berapa yang benar.
+   
+   Cara Kerja: Jumlah prediksi benar untuk kelas dibagi total prediksi kelas tersebut.
+   
+   Catatan: Penting jika false positives berdampak besar, misal mengira pelanggan churn padahal tidak.
 
-Pendekatan ini tidak personal karena memberikan rekomendasi umum kepada semua pengguna, namun keunggulannya adalah cepat, sederhana, dan efektif dalam menampilkan aplikasi yang dikenal banyak orang.
+5. Recall (Sensitivitas)
+   
+   Definisi: Seberapa baik model menemukan seluruh data yang benar-benar termasuk suatu kelas.
+   
+   Cara Kerja: Jumlah prediksi benar untuk kelas dibagi total data sebenarnya dalam kelas tersebut.
+   
+   Catatan: Penting jika false negatives harus dihindari, misal tidak ingin melewatkan pelanggan churn.
+
+7. F1-Score
+   
+   Definisi: Rata-rata harmonis dari precision dan recall, memberi keseimbangan antara keduanya.
+   
+   Cara Kerja: Tinggi jika precision dan recall sama-sama tinggi.
+   
+   Catatan: Cocok untuk data tidak seimbang.
+
+9. Confusion Matrix (Matriks Kebingungan)
+   
+Definisi: Matriks yang menampilkan jumlah prediksi benar dan salah untuk setiap kelas.
+
+Contoh Singkat Cara Kerja Metrik
+
+### Perbandingan Hasil Evaluasi Model:
+
+- Model Support Vector Machine (SVM)
+  Metrik Nilai
+  Akurasi: 0.8750
+  Precision (weighted): 0.8799
+  Recall (weighted): 0.8750
+  F1 Score (weighted): 0.8746
+
+  ![image](https://github.com/user-attachments/assets/80d02922-3911-403e-be6a-b5040471b6fd)
+
+
+- Model Decision Tree
+  Metrik Nilai
+  Akurasi: 0.8125
+  Precision (weighted): 0.8129
+  Recall (weighted): 0.8125
+  F1 Score (weighted): 0.8124
+
+  ![image](https://github.com/user-attachments/assets/9ea03ca3-44fe-40f3-902d-2e70775f5c1d)
+
+
+- Random Forest
+  Metrik Nilai
+  Akurasi: 0.9034
+  Precision (weighted): 0.9035
+  Recall (weighted): 0.9034
+  F1 Score (weighted): 0.9034
+
+![image](https://github.com/user-attachments/assets/492bac74-1cb2-424b-b3b7-90dd24ad8b06)
+
+- Logistic Regression
+  Metrik Nilai
+  Akurasi: 0.8523
+  Precision (weighted): 0.8569
+  Recall (weighted): 0.8523
+  F1 Score (weighted): 0.8518
+
+![image](https://github.com/user-attachments/assets/506bdd67-db1d-4aa3-8a64-30e5763f4780)
+
+- Gradient Boosting Classifier
+  Metrik Nilai
+  Akurasi: 0.8864
+  Precision (weighted): 0.8866
+  Recall (weighted): 0.8864
+  F1 Score (weighted): 0.8863
+
+
+![image](https://github.com/user-attachments/assets/673995e4-1751-485c-8cfe-5eb9d73dedd7)
+
+- MLPClassifier (Multi-Layer Perceptron)
+  Metrik Nilai
+  Akurasi: 0.8750
+  Precision (weighted): 0.8758
+  Recall (weighted): 0.8750
+  F1 Score (weighted): 0.8749
+
+![image](https://github.com/user-attachments/assets/5d1426cf-be8b-46f5-b8b1-a6527e1407f1)
+
+
+
 
 
 **Kesimpulan Evaluasi**
