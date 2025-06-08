@@ -37,104 +37,87 @@ Untuk itu, diperlukan sebuah sistem yang dapat mengidentifikasi mahasiswa yang b
 Proyek ini bertujuan membangun model prediktif berbasis data mahasiswa, menggunakan algoritma Random Forest, guna memprediksi kemungkinan seorang mahasiswa akan mengalami dropout. Data yang digunakan mencakup IPK per semester, kehadiran kuliah, jumlah mata kuliah yang diulang, latar belakang keluarga, dan aktivitas mahasiswa. Dengan pendekatan ini, model prediksi tidak hanya berfungsi sebagai alat analisis, tetapi juga sebagai dasar pengambilan keputusan strategis dalam meningkatkan retensi dan kesuksesan studi mahasiswa.
 
 ### Problem Statements
-1. Bagaimana cara membuat sistem rekomendasi aplikasi yang memberikan saran kepada pengguna berdasarkan kemiripan fitur aplikasi (seperti kategori)?
 
-2. Bagaimana cara mengukur performa model sistem rekomendasi aplikasi secara kuantitatif?
+1. Bagaimana memprediksi mahasiswa yang berisiko tinggi mengalami drop out menggunakan data akademik dan non-akademik?
+
+2. Fitur atau faktor apa saja yang paling berpengaruh terhadap status drop out mahasiswa?
+
+3. Bagaimana membangun model prediksi yang akurat untuk mendukung keputusan pihak kampus dalam melakukan intervensi dini?
+
+4. Sejauh mana model yang dibangun dapat digeneralisasi ke data mahasiswa baru atau mahasiswa dari jurusan/program studi lain?
 
 ### Goals
-1. Menghasilkan rekomendasi aplikasi sebanyak Top-N rekomendasi yang relevan untuk pengguna berdasarkan kemiripan fitur aplikasi.
 
-2. Mengukur performa model sistem rekomendasi menggunakan metrik evaluasi seperti precision@k, diversity score dan Intra-list Similarity (ILS) untuk menilai relevansi dan keberagaman rekomendasi.
+1. Mengembangkan model machine learning untuk memprediksi status drop out mahasiswa berdasarkan data seperti IPK tiap semester, kehadiran, dan informasi demografis.
 
+2. Mengidentifikasi fitur-fitur penting yang memiliki kontribusi signifikan terhadap kemungkinan drop out.
 
- ### Solution statements
-Solution Approach
-Untuk mencapai tujuan yang telah ditetapkan, digunakan dua pendekatan sistem rekomendasi berikut:
+3. Memberikan wawasan dan rekomendasi berbasis data kepada pihak kampus atau akademik untuk mencegah drop out secara proaktif.
 
-1. Content-Based Filtering
-Pendekatan ini merekomendasikan aplikasi berdasarkan kemiripan fitur konten antar aplikasi. Fitur-fitur yang digunakan antara lain: Category (kategori aplikasi), Rating dan Rating Count, Installs, Free atau Price, Size, Content Rating
+4. Menyediakan antarmuka prediksi (misalnya dalam bentuk dashboard atau form input) yang mudah digunakan untuk analisis calon mahasiswa berisiko.
 
-Fitur-fitur tersebut diolah menjadi vektor fitur aplikasi, lalu dihitung tingkat kemiripannya menggunakan metode seperti cosine similarity. Sistem ini akan menyarankan aplikasi yang mirip dengan aplikasi yang sudah populer atau telah dipilih pengguna sebelumnya.
+### Solution Statements
 
-2. Popularity-Based Filtering (Sebagai Alternatif Collaborative Filtering)
-Karena tidak tersedia data interaksi pengguna (seperti ID pengguna, histori klik, atau rating per pengguna), maka pendekatan collaborative filtering klasik tidak dapat diterapkan. Sebagai gantinya, digunakan pendekatan berbasis popularitas sebagai baseline:
+1. Menggunakan beberapa algoritma machine learning seperti Support Vector Machine (SVM), Decision Tree, dan Random Forest untuk membandingkan performa dalam memprediksi status drop out.
 
-Menampilkan aplikasi dengan jumlah instalasi, rating count, atau rating tertinggi sebagai rekomendasi umum.
+2. Menerapkan teknik preprocessing seperti Label Encoding, One-Hot Encoding, dan Feature Alignment agar data dapat diproses secara konsisten.
+
+3. Menggunakan confusion matrix, akurasi, precision, recall, dan F1-score untuk mengevaluasi performa masing-masing model.
+
+4. Menyimpan model dan encoder dalam format .joblib agar dapat digunakan ulang dalam proses inferensi pada data baru.
 
 
 ## Data Understanding
-Pada tahap ini, dilakukan pemahaman awal terhadap dataset yang digunakan dalam proyek sistem rekomendasi aplikasi. Informasi yang disampaikan mencakup jumlah data, kondisi data, serta penjelasan setiap fitur dalam dataset.
-erdapat kolom-kolom yang memiliki missing values, antara lain:
+Dataset yang digunakan adalah data dummy yang di buat sendiri
 
-App Name : 5
+Dataset ini terdiri dari 600 baris dan 17 kolom yang menggambarkan berbagai atribut mahasiswa, mulai dari data akademik, informasi pribadi, hingga partisipasi dalam kegiatan non-akademik.
 
-Rating : 22883
-
-Rating Count : 22883
-
-Installs : 107
-
-Size : 196
-
-Minimum Android : 2499
+Tidak terdapat kolom-kolom missing values pada data
 
 Data duplikat tidak ditemukan pada data
 
-Outlier terdeteksi pada kolom
+Outlier terdeteksi pada kolom :
 
-1. Rating
-2. Rating Count
-3. Price      
+1. ipk_sem1
+2. ipk_sem2
+3. ipk_sem3
+4. ipk_sem4
 
-Dataset yang digunakan diperoleh dari sumber berikut: [Kaggle](https://www.kaggle.com/datasets/gauthamp10/google-playstore-apps)
+Berikut adalah penjelasan singkat mengenai fitur/variabel dalam dataset prediksi mahasiswa Drop Out:
 
-Dataset ini terdiri dari 2.312.944 baris dan 24 kolom. Setiap baris merepresentasikan satu aplikasi yang tersedia di Google Play Store, sementara kolom-kolomnya berisi informasi terkait atribut aplikasi tersebut.
+- id_mahasiswa: ID unik untuk masing-masing mahasiswa sebagai identifikasi individual dalam dataset.
 
-Berikut adalah penjelasan singkat mengenai fitur/variabel dalam dataset:
-- App Name	       : Nama aplikasi seperti yang ditampilkan di Play Store.
-- App Id	       : ID unik aplikasi di Play Store (biasanya berupa nama paket, seperti com.example.app).
-- Category	       : Kategori aplikasi, seperti Games, Education, Shopping, dll.
-- Rating	       : Nilai rata-rata penilaian pengguna (biasanya dari 1.0 hingga 5.0).
-- Rating Count     : Jumlah total penilaian atau rating yang diberikan oleh pengguna.
-- Installs	       : Jumlah pemasangan aplikasi (dalam format seperti "1,000+").
-- Minimum Installs : Estimasi jumlah minimum instalasi berdasarkan data.
-- Maximum Installs : Estimasi jumlah maksimum instalasi berdasarkan data.
-- Free	           : Apakah aplikasi gratis (True) atau berbayar (False).
-- Price	           : Harga aplikasi jika tidak gratis.
-- Currency         : Mata uang yang digunakan untuk harga (misalnya USD, IDR).
-- Size	           : Ukuran file aplikasi.
-- Minimum Android  : Versi minimum Android yang dibutuhkan untuk menjalankan aplikasi.
-- Developer Id     : ID unik pengembang di Play Store.
-- Developer Website : Situs web resmi dari pengembang aplikasi (jika tersedia).
-- Developer Email	: Alamat email kontak pengembang.
-- Released	        : Tanggal pertama kali aplikasi dirilis di Play Store.
-- Last Updated	    : Tanggal terakhir aplikasi diperbarui.
-- Content Rating	: Rating konten aplikasi berdasarkan umur pengguna (seperti "Everyone", "Teen", dll).
-- Privacy Policy	: URL ke kebijakan privasi aplikasi.
-- Ad Supported	    : Menunjukkan apakah aplikasi mendukung iklan (True/False).
-- In App Purchases	: Menunjukkan apakah aplikasi memiliki pembelian dalam aplikasi (True/False).
-- Editors Choice	: Apakah aplikasi mendapat label “Pilihan Editor” dari Google Play.
-- Scraped Time      : Waktu saat data aplikasi ini dikumpulkan/scraped.
+- ipk_sem1: Indeks Prestasi Kumulatif (IPK) mahasiswa pada semester 1.
 
-  Tetapi karena beberapa pertimbangan sebagai berikut:
+- ipk_sem2: Indeks Prestasi Kumulatif (IPK) mahasiswa pada semester 2.
 
-1. Kolom-kolom tersebut memiliki nilai informatif yang tinggi dalam merepresentasikan popularitas, kualitas, serta segmentasi aplikasi.
-2. Kolom yang dipilih cenderung memiliki data yang lebih lengkap dan bersih, sehingga dapat meminimalkan risiko ketidaksesuaian atau missing value pada tahap pemrosesan data.
-3. Fitur-fitur tersebut lebih mudah untuk diolah dan dianalisis, baik dalam analisis statistik deskriptif maupun dalam proses modeling seperti sistem rekomendasi
+- ipk_sem3: Indeks Prestasi Kumulatif (IPK) mahasiswa pada semester 3.
 
-maka Dalam proses pemilihan fitur, dipilih 11 kolom utama dari dataset
-- App Name	       : Nama aplikasi seperti yang ditampilkan di Play Store.
-- App Id	       : ID unik aplikasi di Play Store (biasanya berupa nama paket, seperti com.example.app).
-- Category	       : Kategori aplikasi, seperti Games, Education, Shopping, dll.
-- Rating	       : Nilai rata-rata penilaian pengguna (biasanya dari 1.0 hingga 5.0).
-- Rating Count     : Jumlah total penilaian atau rating yang diberikan oleh pengguna.
-- Installs	       : Jumlah pemasangan aplikasi (dalam format seperti "1,000+").
-- Free	           : Apakah aplikasi gratis (True) atau berbayar (False).
-- Price	           : Harga aplikasi jika tidak gratis.
-- Size	           : Ukuran file aplikasi.
-- Minimum Android  : Versi minimum Android yang dibutuhkan untuk menjalankan aplikasi.
-jadi Dataset nya terdiri dari 2.312.944 baris dan 11 kolom.
+- ipk_sem4: Indeks Prestasi Kumulatif (IPK) mahasiswa pada semester 4.
 
+- kehadiran_rata2: Persentase rata-rata kehadiran mahasiswa dalam kegiatan akademik.
+
+- matkul_diulang: Jumlah mata kuliah yang pernah diulang oleh mahasiswa karena tidak lulus atau nilai tidak memuaskan.
+
+- prodi: Program studi atau jurusan tempat mahasiswa terdaftar (misalnya Teknik Informatika, Ilmu Komunikasi, dll).
+
+- jenis_kelamin: Jenis kelamin mahasiswa (Laki-laki atau Perempuan).
+
+- aktivitas_lms: Tingkat aktivitas mahasiswa di platform Learning Management System (LMS), seperti aktif, sangat aktif, atau tidak aktif.
+
+- status_pekerjaan: Status pekerjaan mahasiswa (bekerja, tidak bekerja).
+
+- beban_kerja: Jumlah jam kerja per minggu jika mahasiswa bekerja (0 jika tidak bekerja).
+
+- pendapatan_ortu: Estimasi rata-rata pendapatan orang tua mahasiswa (dalam satuan juta rupiah per bulan).
+
+- pendidikan_ortu: Tingkat pendidikan terakhir orang tua (misalnya SMP, SMA, S1, S2).
+
+- lokasi_tinggal: Lokasi tempat tinggal mahasiswa selama kuliah (misalnya kota, desa, atau kos/kontrak).
+
+- keterlibatan_organisasi: Tingkat keterlibatan mahasiswa dalam organisasi kampus (aktif, tidak aktif, atau tidak ikut).
+
+- status_DO: Label target, yaitu apakah mahasiswa termasuk kategori Drop Out (Ya) atau Tidak (Tidak).
 
 **exploratory data analysis**:
 - Ini beberapa tahapan yang dilakukan untuk memahami data :
