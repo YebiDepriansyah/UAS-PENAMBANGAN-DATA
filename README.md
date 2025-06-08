@@ -432,62 +432,289 @@ Tahapan data preparation dilakukan untuk memastikan kualitas dan kesesuaian data
 
 **Normalisasi**: Membantu mempercepat proses training dan membuat model lebih stabil, terutama untuk algoritma yang sensitif terhadap skala data.
 
+
 ## Modeling
-Tahapan ini membahas pembangunan model sistem rekomendasi yang dirancang untuk membantu pengguna menemukan aplikasi yang relevan berdasarkan preferensi atau kesamaan konten.
 
-1. Pendekatan 1: Content-Based Filtering dengan TF-IDF + Cosine Similarity
-Pada pendekatan pertama, digunakan teknik content-based filtering yang memanfaatkan informasi dari fitur kategori (Category) setiap aplikasi. Pendekatan ini didasarkan pada asumsi bahwa aplikasi yang mirip dari segi kategori akan relevan satu sama lain.
+### Model yang Digunakan
 
-**Langkah-Langkah:**
-- Representasi kategori diubah menjadi vektor numerik menggunakan TF-IDF Vectorizer.
+Dalam proyek ini, tiga algoritma machine learning digunakan untuk membangun model klasifikasi churn pelanggan, yaitu: Support Vector Machine (SVM), Decision Tree,  Random Forest, ogistic Regression, Gradient Boosting Classifier, dan MLPClassifier (Multi-layer Perceptron). Masing-masing model dilatih menggunakan data training hasil dari tahap data preparation.
 
-- Kemudian dihitung cosine similarity antar aplikasi berdasarkan hasil vektorisasi.
+### Penjelasan Cara Kerja Setiap Model
 
-- Untuk setiap aplikasi yang dimasukkan, sistem akan merekomendasikan Top-10 aplikasi serupa berdasarkan skor kemiripan tertinggi.
+#### Support Vector Machine (SVM)
 
-a. Kelebihan:
-- Tidak bergantung pada data pengguna atau interaksi historis.
-- Bisa merekomendasikan item baru (cold-start friendly, selama deskripsinya tersedia).
-- Mudah diimplementasikan dan ditafsirkan.
+SVM bekerja dengan mencari hyperplane terbaik yang memisahkan kelas-kelas data secara optimal. Tujuannya adalah memaksimalkan margin antara dua kelas data. Dalam kasus data yang tidak dapat dipisahkan secara linear, SVM menggunakan fungsi kernel untuk memetakan data ke dimensi yang lebih tinggi agar dapat dipisahkan.
 
-b. Kekurangan:
-- Rekomendasi terbatas hanya pada konten yang tersedia (hanya berdasarkan kategori).
-- Tidak bisa menangkap preferensi pengguna secara personal.
+- **Parameter yang digunakan:**
+  - random_state=42 — Seed random untuk reproduksi hasil.
+  
+  - C=1.0 — Parameter regularisasi, trade-off antara margin dan kesalahan klasifikasi.
+  
+  - kernel='rbf' — Fungsi kernel yang digunakan (linear, poly, rbf, sigmoid).
+  
+  - degree=3 — Derajat polinomial untuk kernel 'poly'.
+  
+  - gamma='scale' — Kernel coefficient untuk 'rbf', 'poly', dan 'sigmoid'.
+  
+  - coef0=0.0 — Konstanta kernel independen untuk kernel 'poly' dan 'sigmoid'.
+  
+  - shrinking=True — Menggunakan heuristik shrinking untuk mempercepat pelatihan.
+  
+  - probability=False — Mengaktifkan prediksi probabilitas (memperlambat pelatihan).
+  
+  - tol=0.001 — Toleransi kriteria penghentian solver.
+  
+  - cache_size=200 — Ukuran cache kernel matrix dalam MB.
+  
+  - class_weight=None — Bobot kelas untuk penanganan ketidakseimbangan kelas.
+  
+  - verbose=False — Menampilkan log selama pelatihan.
+  
+  - max_iter=-1 — Maksimal iterasi solver (-1 berarti tidak terbatas).
+  
+  - decision_function_shape='ovr' — Bentuk fungsi keputusan ('ovr' = one-vs-rest, 'ovo' = one-vs-one).
+  
+  - break_ties=False — Memecahkan ties dalam prediksi saat decision_function_shape='ovr'.
 
-2. Pendekatan 2: Popularity-Based Filtering
-Sebagai pembanding, juga dibuat pendekatan berbasis popularitas. Pendekatan ini menyarankan aplikasi dengan jumlah pemasangan (Installs), rating tertinggi (Rating), dan jumlah rating (Rating Count) terbanyak.
+#### Decision Tree
 
-**Langkah-Langkah:**
-- Aplikasi diurutkan berdasarkan gabungan tiga metrik: Installs, Rating Count, dan Rating.
-- Diambil Top-10 aplikasi terpopuler sebagai rekomendasi universal untuk semua pengguna.
+Decision Tree membagi data berdasarkan fitur yang memberikan informasi paling tinggi (menggunakan metrik seperti gini atau entropy) untuk memisahkan kelas. Model ini membentuk struktur pohon di mana setiap node merepresentasikan keputusan berdasarkan nilai fitur tertentu.
 
-a. Kelebihan:
-- Sederhana dan efektif dalam banyak kasus.
-- Relevan bagi pengguna baru yang belum memiliki preferensi khusus.
+- **Parameter yang digunakan:**
+  
+  - random_state=42 — Seed random untuk reproduksi hasil.
+    
+  - criterion='gini' — Fungsi pengukuran kualitas split ('gini' atau 'entropy').
+    
+  - splitter='best' — Strategi pemilihan split ('best' atau 'random').
+    
+  - max_depth=None — Kedalaman maksimum pohon (None berarti tidak dibatasi).
+    
+  - min_samples_split=2 — Minimal jumlah sampel untuk melakukan split.
+    
+  - min_samples_leaf=1 — Minimal jumlah sampel di daun.
+    
+  - min_weight_fraction_leaf=0.0 — Fraksi minimal bobot sampel di daun.
+    
+  - max_features=None — Jumlah fitur yang dipertimbangkan saat mencari split terbaik.
+    
+  - max_leaf_nodes=None — Maksimal jumlah daun (None berarti tidak dibatasi).
+    
+  - min_impurity_decrease=0.0 — Minimal pengurangan impuritas untuk melakukan split.
+    
+  - class_weight=None — Bobot kelas untuk penanganan ketidakseimbangan kelas.
+    
+  - ccp_alpha=0.0 — Parameter kompleksitas pruning post-pruning.
 
-b. Kekurangan:
-- Tidak personalisasi (semua pengguna mendapat rekomendasi yang sama).
-- Rentan bias terhadap aplikasi lama dan terkenal.
-- 
-**Top-N Recommendation Output**
-Berikut adalah contoh hasil rekomendasi untuk beberapa aplikasi:
-![Image](https://github.com/user-attachments/assets/78d826c6-6a7f-41e8-864b-9d1337b788b5)
+#### Random Forest
 
-Sistem merekomendasikan beberapa aplikasi lain yang berada dalam kategori Shopping dan memiliki kemiripan fitur dengan Supermarket Deal Calculator. Beberapa aplikasi yang direkomendasikan antara lain Shopping List Barcode Scanner, FidMe Loyalty Cards & Deals at Grocery Supermarkets, hingga Toy Store App. Rekomendasi ini relevan karena memiliki fungsi serupa dalam membantu aktivitas berbelanja dan pengelolaan produk.
+Random Forest merupakan ensemble model yang terdiri dari banyak pohon keputusan (Decision Trees). Setiap pohon dilatih menggunakan subset acak dari data dan fitur. Hasil akhir diperoleh dengan majority voting dari seluruh pohon. Teknik ini membantu mengurangi overfitting dan meningkatkan akurasi.
 
-Rekomendasi untuk aplikasi Happy birth:
-Untuk aplikasi bertema hiburan seperti Happy birth, sistem menghasilkan rekomendasi dari kategori Entertainment seperti LAVA TV, Pelet Online Prank, dan Among us mod MCPE 2021. Aplikasi-aplikasi ini memiliki konten hiburan yang bervariasi, dari video lucu hingga mod game, yang dinilai sesuai dengan selera pengguna aplikasi Happy birth.
+- **Parameter yang digunakan:**
+  
+  - random_state=42 — Seed random untuk reproduksi hasil.
+    
+  - n_estimators=100 — Jumlah pohon dalam hutan.
+    
+  - criterion='gini' — Fungsi pengukuran kualitas split ('gini' atau 'entropy').
+    
+  - max_depth=None — Kedalaman maksimum pohon (None berarti tidak dibatasi).
+    
+  - min_samples_split=2 — Minimal jumlah sampel untuk melakukan split.
+    
+  - min_samples_leaf=1 — Minimal jumlah sampel di daun.
+    
+  - min_weight_fraction_leaf=0.0 — Fraksi minimal bobot sampel di daun.
+    
+  - max_features='auto' — Jumlah fitur yang dipertimbangkan saat mencari split terbaik ('auto', 'sqrt', 'log2', atau int/float).
+    
+  - max_leaf_nodes=None — Maksimal jumlah daun (None berarti tidak dibatasi).
+    
+  - min_impurity_decrease=0.0 — Minimal pengurangan impuritas untuk melakukan split.
+    
+  - bootstrap=True — Menggunakan bootstrap sampling untuk membuat pohon.
+    
+  - oob_score=False — Menggunakan out-of-bag samples untuk estimasi akurasi.
+    
+  - n_jobs=None — Jumlah core CPU untuk paralelisasi (None berarti 1).
+    
+  - verbose=0 — Kontrol keluaran log selama pelatihan.
+    
+  - warm_start=False — Melanjutkan pelatihan dari model sebelumnya.
+    
+  - class_weight=None — Bobot kelas untuk penanganan ketidakseimbangan kelas.
+    
+  - ccp_alpha=0.0 — Parameter kompleksitas pruning post-pruning.
+    
+  - max_samples=None — Jumlah sampel untuk bootstrap (None = semua data).
 
-Rekomendasi untuk aplikasi Fire Truck Simulator 3D:
-Aplikasi ini termasuk dalam kategori Simulation, sehingga sistem memberikan rekomendasi aplikasi simulasi lainnya seperti Car Driving, Armed Air Forces, dan Real Sports Car Game. Aplikasi-aplikasi ini menawarkan pengalaman interaktif dan simulasi kendaraan atau aktivitas serupa yang sesuai dengan konsep dari Fire Truck Simulator 3D.
 
-![Image](https://github.com/user-attachments/assets/4051d424-ad3e-48da-b72d-16d69360f044)
+**Logistic Regression**
+Logistic Regression adalah model linier yang digunakan untuk klasifikasi. Ia memprediksi probabilitas suatu sampel termasuk ke dalam suatu kelas berdasarkan fungsi logit (sigmoid) dari kombinasi linier fitur input. Cocok untuk klasifikasi biner dan multikelas.
 
-Hasil yang ditampilkan menunjukkan 10 aplikasi yang dianggap paling populer, seperti:
-- Contacts dari Google, dengan lebih dari 500 juta pemasangan.
-- Книга Вслух. Аудиокниги, aplikasi audiobook dengan rating tinggi (4.9).
-- Lose Belly Fat Workouts dan Taiwan Drivers License Test, yang meskipun jumlah installs lebih kecil, tetap masuk karena rating dan jumlah ratingnya tinggi.
-Aplikasi-aplikasi ini berasal dari berbagai kategori, menunjukkan bahwa popularitas tidak hanya bergantung pada satu jenis aplikasi, tetapi juga kualitas.
+- **Parameter yang digunakan:**
+
+- random_state=42 — Untuk memastikan hasil yang konsisten.
+
+- solver='lbfgs' — Algoritma optimisasi, cocok untuk dataset kecil hingga menengah.
+
+- multi_class='auto' — Menyesuaikan strategi klasifikasi multikelas secara otomatis.
+
+- max_iter=1000 — Batas maksimum iterasi selama pelatihan.
+
+**Gradient Boosting Classifier**
+Gradient Boosting adalah teknik ensemble yang membangun model secara bertahap, di mana setiap model baru berusaha mengoreksi kesalahan model sebelumnya. Model dasarnya adalah Decision Tree, dan tiap iterasi mengoptimalkan fungsi loss dengan pendekatan gradient descent.
+
+- **Parameter yang digunakan:**
+
+- n_estimators=100 — Jumlah pohon dalam boosting.
+
+- learning_rate=0.1 — Menentukan kontribusi masing-masing pohon terhadap model akhir.
+
+- max_depth=3 — Kedalaman maksimum tiap pohon.
+
+- random_state=42 — Untuk reproduksibilitas hasil.
+
+- subsample=1.0 — Fraksi sampel yang digunakan di setiap iterasi boosting.
+
+- loss='deviance' — Fungsi loss yang digunakan (log loss untuk klasifikasi).
+
+**MLPClassifier (Multi-Layer Perceptron)**
+MLPClassifier adalah neural network feed-forward yang terdiri dari satu atau lebih lapisan tersembunyi. Model ini belajar menggunakan backpropagation dan sangat cocok untuk memodelkan relasi non-linear dalam data.
+
+- **Parameter yang digunakan:**
+
+- hidden_layer_sizes=(100,) — Ukuran lapisan tersembunyi (1 layer dengan 100 neuron).
+
+- activation='relu' — Fungsi aktivasi antar neuron.
+
+- solver='adam' — Optimizer berbasis stochastic gradient descent.
+
+- max_iter=300 — Jumlah iterasi maksimum.
+
+- random_state=42 — Untuk hasil yang dapat direproduksi.
+
+- early_stopping=True — Menghentikan pelatihan saat validasi tidak membaik.
+
+
+
+### Kelebihan dan Kekurangan Model
+
+#### Support Vector Machine (SVM)
+
+**Kelebihan:**
+
+1. Akurat untuk margin yang jelas – SVM bekerja sangat baik jika terdapat batas pemisah (margin) yang jelas antara dua kelas.
+   
+2. Efektif di ruang berdimensi tinggi – SVM tetap bekerja baik meski jumlah fitur sangat banyak.
+   
+3. Bisa digunakan untuk data non-linear – Dengan penggunaan kernel trick, SVM mampu memisahkan data yang tidak linear.
+   
+4. Robust terhadap overfitting – Terutama jika jumlah fitur lebih banyak dari jumlah sampel.
+
+**Kekurangan:**
+
+1. Kurang cocok untuk dataset besar – Proses training-nya sangat lambat ketika jumlah data besar.
+   
+2. Butuh tuning parameter yang hati-hati – Pemilihan kernel, nilai C, dan gamma sangat memengaruhi performa.
+   
+3. Kurang interpretatif – Tidak sejelas Decision Tree dalam menunjukkan logika keputusan.
+
+#### Decision Tree
+
+**Kelebihan:**
+
+1. Mudah dipahami dan divisualisasikan – Model ini menyerupai pohon keputusan yang bisa dengan mudah dipahami oleh manusia.
+   
+2. Tidak perlu banyak pra-pemrosesan data – Tidak memerlukan normalisasi atau scaling.
+   
+3. Bisa menangani data numerik dan kategorikal – Tanpa perlakuan khusus.
+   
+4. Cepat dilatih – Umumnya memiliki waktu pelatihan yang cepat.
+
+**Kekurangan:**
+
+1. Rentan terhadap overfitting – Apalagi jika pohon terlalu dalam atau tidak dipangkas.
+   
+2. Kurang stabil – Perubahan kecil pada data dapat menghasilkan struktur pohon yang sangat berbeda.
+   
+3. Cenderung bias terhadap fitur dengan banyak level/kategori.
+
+#### Random Forest
+
+**Kelebihan:**
+
+1. Lebih akurat dari Decision Tree tunggal – Karena merupakan kumpulan dari banyak Decision Tree (ensemble).
+   
+2. Kurang rentan overfitting – Menggunakan metode bagging untuk mengurangi variansi.
+   
+3. Dapat menangani data besar dan fitur banyak – Cocok untuk dataset kompleks.
+   
+4. Memberikan estimasi pentingnya fitur (feature importance).
+
+**Kekurangan:**
+
+1. Kurang interpretatif – Sulit memahami keseluruhan logika karena banyak pohon.
+   
+2. Waktu pelatihan dan prediksi lebih lama – Dibandingkan dengan model sederhana seperti Decision Tree.
+   
+3. Model lebih besar – Membutuhkan lebih banyak memori dan ruang penyimpanan.
+
+#### Logistic Regression
+
+**Kelebihan:**
+
+1. Mudah dipahami dan diinterpretasikan – Termasuk model linier yang transparan.
+
+2. Cepat dilatih – Cocok untuk baseline model.
+
+3. Bisa digunakan untuk probabilistik output – Berguna untuk prediksi peluang.
+
+Kekurangan:
+
+1. Tidak bisa menangani relasi non-linear secara langsung – Performa menurun jika fitur tidak linear terhadap target.
+
+2. Sensitif terhadap multikolinearitas – Fitur yang saling berkorelasi tinggi memengaruhi performa.
+
+3. Perlu fitur numerik – Harus dilakukan encoding untuk fitur kategorikal.
+
+#### Gradient Boosting Classifier
+
+**Kelebihan:**
+
+1. Sangat akurat – Salah satu metode terbaik untuk banyak masalah klasifikasi.
+
+2. Mampu menangani fitur numerik dan kategorikal.
+
+3. Bisa menangani data tidak seimbang dengan baik.
+
+**Kekurangan:**
+
+1. Proses pelatihan lambat – Karena model dibangun secara bertahap.
+
+2. Mudah overfitting – Jika tidak disetel dengan benar (terlalu banyak pohon atau terlalu dalam).
+
+3. Perlu tuning parameter secara hati-hati – Seperti learning_rate, n_estimators, dll.
+
+#### MLPClassifier (Neural Network)
+
+**Kelebihan:**
+
+1. Mampu memodelkan relasi non-linear yang kompleks.
+
+2. Cocok untuk berbagai jenis data – Termasuk data numerik dan hasil embedding.
+
+3. Bisa digunakan untuk multi-class classification dengan probabilitas prediksi.
+
+**Kekurangan:**
+
+1. Memerlukan lebih banyak data dan waktu pelatihan.
+
+2. Kurang interpretatif – Model seperti “black box”.
+
+3. Sensitif terhadap parameter dan skala fitur – Harus distandardisasi terlebih dahulu.
+
+
 
 ## Evaluation
 1. ### Evaluasi Pendekatan Content-Based Filtering
