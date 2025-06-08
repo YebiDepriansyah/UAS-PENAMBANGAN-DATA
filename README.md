@@ -121,7 +121,8 @@ Berikut adalah penjelasan singkat mengenai fitur/variabel dalam dataset prediksi
 
 **exploratory data analysis**:
 
-- Ini beberapa tahapan yang dilakukan untuk memahami data :
+**Boxplot Visualization**
+Untuk mempermudah visualisasi data, maka di feature dibagi menjadi categorical_feature dan numerical_feature.
 
 ![Image](https://github.com/user-attachments/assets/56972c34-a26e-43b0-bff2-c89786d89754)
 
@@ -131,8 +132,67 @@ Berikut adalah penjelasan singkat mengenai fitur/variabel dalam dataset prediksi
 
 ![Image](https://github.com/user-attachments/assets/890f6f52-cff4-4051-964d-ade1c19c8dc7)
 
+Untuk rata-rata distribusi box plot dapat dilihat sebagai berikut:
+
+- ipk_sem1: Rata-rata (median) nilai IPK pada semester 1 berada di sekitar angka 2.9 hingga 3.0. Mayoritas data (50% dari tengah) berada dalam rentang IPK sekitar 2.6 hingga 3.3.
+- ipk_sem2: Rata-rata (median) nilai IPK pada semester 2 berada di sekitar angka 3.0 hingga 3.1. Mayoritas data (50% dari tengah) berada dalam rentang IPK sekitar 2.7 hingga 3.4.
+- ipk_sem3: Rata-rata (median) nilai IPK pada semester 3 berada di sekitar angka 3.0 hingga 3.1. Mayoritas data (50% dari tengah) berada dalam rentang IPK sekitar 2.7 hingga 3.4.
+- ipk_sem4: Rata-rata (median) nilai IPK pada semester 4 berada di sekitar angka 3.0 hingga 3.1. Mayoritas data (50% dari tengah) berada dalam rentang IPK sekitar 2.7 hingga 3.4.
 
 ### EDA - Univariate Analysis.
+
+#### Univariate Analysis - Numerical Feature
+
+![image](https://github.com/user-attachments/assets/8fd3ed83-c61b-437e-af93-1c8494007f56)
+
+Gambar ini menampilkan distribusi dari fitur numerik mahasiswa dalam bentuk histogram. Setiap subplot menggambarkan sebaran nilai dari satu fitur. Berikut adalah penjelasan tiap fitur:
+
+1. ipk_sem1, ipk_sem2, ipk_sem3, ipk_sem4
+   
+- Distribusi IPK dari semester 1 hingga 4.
+
+- Sebagian besar mahasiswa memiliki IPK di antara 2.5 – 3.5.
+
+- Distribusinya cenderung normal (berbentuk lonceng) namun sedikit condong ke kiri (left-skewed).
+
+- Menunjukkan performa akademik cenderung stabil dari semester 1 hingga 4.
+
+2. kehadiran_rata2
+   
+- Persentase kehadiran kuliah.
+
+- Sebagian besar mahasiswa memiliki tingkat kehadiran di atas 70%, banyak yang mendekati 100%.
+
+- Ada juga yang rendah (<60%), tetapi lebih jarang.
+
+- Ini bisa berkorelasi positif dengan IPK.
+
+3. matkul_diulang
+   
+- Jumlah mata kuliah yang diulang oleh mahasiswa.
+
+- Banyak mahasiswa yang mengulang 1–4 matkul.
+
+- Mahasiswa yang tidak mengulang (0) cukup banyak, dan sedikit yang mengulang hingga 5 matkul.
+
+4. beban_kerja
+   
+- Sebagian besar mahasiswa memiliki beban kerja 0, artinya tidak bekerja sambil kuliah.
+
+- Sisanya tersebar di angka 5 hingga 40 jam/minggu, tetapi jumlahnya jauh lebih kecil.
+
+- Hal ini sejalan dengan data kategori sebelumnya (status_pekerjaan) yang menunjukkan banyak mahasiswa tidak bekerja.
+
+5. pendapatan_ortu
+   
+- Data ini diskalakan (kemungkinan dalam jutaan atau rentang kategori).
+
+- Distribusinya cukup merata dengan sedikit konsentrasi di tengah (sekitar 5–15).
+
+- Hanya sedikit mahasiswa dari keluarga dengan pendapatan sangat rendah atau sangat tinggi.
+- 
+
+#### Univariate Analysis - Multivariate analysis
 
 ![image](https://github.com/user-attachments/assets/7f97abbd-60b7-4eb6-981d-ea557dc83237)
 
@@ -182,58 +242,7 @@ Menunjukkan jumlah mahasiswa berdasarkan program studi.
 
 - Ada sebagian mahasiswa yang DO, namun jumlahnya lebih kecil secara signifikan.
 
-### EDA - Univariate Analysis.
-
-![image](https://github.com/user-attachments/assets/8fd3ed83-c61b-437e-af93-1c8494007f56)
-
-Gambar ini menampilkan distribusi dari fitur numerik mahasiswa dalam bentuk histogram. Setiap subplot menggambarkan sebaran nilai dari satu fitur. Berikut adalah penjelasan tiap fitur:
-
-1. ipk_sem1, ipk_sem2, ipk_sem3, ipk_sem4
-   
-- Distribusi IPK dari semester 1 hingga 4.
-
-- Sebagian besar mahasiswa memiliki IPK di antara 2.5 – 3.5.
-
-- Distribusinya cenderung normal (berbentuk lonceng) namun sedikit condong ke kiri (left-skewed).
-
-- Menunjukkan performa akademik cenderung stabil dari semester 1 hingga 4.
-
-2. kehadiran_rata2
-   
-- Persentase kehadiran kuliah.
-
-- Sebagian besar mahasiswa memiliki tingkat kehadiran di atas 70%, banyak yang mendekati 100%.
-
-- Ada juga yang rendah (<60%), tetapi lebih jarang.
-
-- Ini bisa berkorelasi positif dengan IPK.
-
-3. matkul_diulang
-   
-- Jumlah mata kuliah yang diulang oleh mahasiswa.
-
-- Banyak mahasiswa yang mengulang 1–4 matkul.
-
-- Mahasiswa yang tidak mengulang (0) cukup banyak, dan sedikit yang mengulang hingga 5 matkul.
-
-4. beban_kerja
-   
-- Sebagian besar mahasiswa memiliki beban kerja 0, artinya tidak bekerja sambil kuliah.
-
-- Sisanya tersebar di angka 5 hingga 40 jam/minggu, tetapi jumlahnya jauh lebih kecil.
-
-- Hal ini sejalan dengan data kategori sebelumnya (status_pekerjaan) yang menunjukkan banyak mahasiswa tidak bekerja.
-
-5. pendapatan_ortu
-   
-- Data ini diskalakan (kemungkinan dalam jutaan atau rentang kategori).
-
-- Distribusinya cukup merata dengan sedikit konsentrasi di tengah (sekitar 5–15).
-
-- Hanya sedikit mahasiswa dari keluarga dengan pendapatan sangat rendah atau sangat tinggi.
-
-
-### EDA - Univariate Analysis.
+#### Univariate Analysis - Multivariate analysis
 
 ![image](https://github.com/user-attachments/assets/258c0c82-482f-41e5-a294-bd0e3eddffeb)
 
@@ -293,9 +302,8 @@ Berikut adalah interpretasi tiap subplot:
 
 - Hal ini sangat masuk akal, karena banyaknya pengulangan bisa menyebabkan akumulasi nilai buruk dan akhirnya DO.
 
-### EDA - Multivariate Analysis
 
-**pair plot**
+#### pair plot
 
 ![image](https://github.com/user-attachments/assets/e678857c-519b-4337-b97e-138573f8ba5a)
 
@@ -304,9 +312,8 @@ Berikut adalah interpretasi tiap subplot:
 - Non-Diagonal: Menampilkan plot sebar (scatter plot) untuk setiap pasangan variabel. Ini membantu kita melihat:
 Korelasi: Apakah ada hubungan linier (positif, negatif, atau tidak ada) antara dua variabel? Misalnya, ipk_norm1 dan ipk_norm2 tampak berkorelasi positif.
 
-### EDA - Multivariate Analysis
 
-**Correlation Matrix (Heatmap)**
+#### Correlation Matrix (Heatmap)
 
 ![image](https://github.com/user-attachments/assets/3f178208-c7cb-43b9-bf52-415f39bed344)
 
@@ -329,52 +336,101 @@ Korelasi: Apakah ada hubungan linier (positif, negatif, atau tidak ada) antara d
 
   
 ## Data Preparation
-1. Feature Selection
+
+Teknik yang Digunakan
+
+Berikut adalah tahapan data preparation yang dilakukan sebelum membangun model machine learning:
+
+### a. Type Casting
+
+Melakukan konversi tipe data dari object (string) menjadi float pada kolom-kolom numerik seperti ipk_sem1, ipk_sem2, ipk_sem3, ipk_sem4, dan pendapatan_ortu. Proses ini melibatkan:
+
+- Mengubah isi kolom menjadi string.
+
+- Mengganti koma (,) menjadi titik (.) sebagai pemisah desimal.
+
+- Menghapus spasi di awal atau akhir nilai.
+
+- Mengonversi string hasil pembersihan ke tipe data numerik (float) menggunakan pd.to_numeric() dengan errors='coerce' agar nilai tidak valid menjadi NaN.
+
+
+### b. Penghapusan Kolom yang Tidak Diperlukan
+
+Kolom-kolom yang tidak relevan atau tidak berguna dalam proses pemodelan, seperti kolom identifikasi 'id_mahasiswa', dihapus.
+
+### c. Penanganan Outlier
+
+Outlier hanya ditangani pada kolom :
+
+ipk_sem1, ipk_sem2, ipk_sem3 dan ipk_sem4.
+
+Penanganan dilakukan menggunakan Winsorizing, yaitu mengganti nilai ekstrim di luar rentang IQR dengan batas bawah atau atas.
+
+### d. Encoding Variabel Kategorikal
+
+Fitur yang tidak memiliki banyak kategori dilakukan One-Hot Encoding, seperti pada kolom:
+
+1.  jenis_kelamin
    
-**Proses:** Memilih 11 kolom penting dari dataset asli Google-Playstore.csv yang relevan untuk analisis dan sistem rekomendasi, antara lain App Name, App Id, Category, Rating, Rating Count, Installs, Free, Price, Size, dan Minimum Android.
+2.  aktivitas_lms
 
-**Alasan:** Kolom-kolom ini dipilih karena memiliki nilai informatif tinggi terhadap popularitas dan segmentasi aplikasi, serta tersedia secara konsisten dan mudah diolah untuk modeling.
+3.  status_pekerjaan
 
-2. Missing Value Handling
-
-**Proses:**
-- Menghapus baris dengan nilai 0 pada kolom Rating dan Rating Count, karena dianggap sebagai data tidak valid.
-- Menghapus baris yang memiliki nilai null pada kolom-kolom kunci seperti App Name, Rating, Rating Count, Size, dan Minimum Android.
-  
-**Alasan:** Data kosong atau nol pada kolom penting dapat menyebabkan bias atau kesalahan pada analisis dan model, sehingga perlu dihapus untuk meningkatkan kualitas data.
-
-3. Duplicate Handling
+4.  pendidikan_ortu
    
-**Proses:** Mengecek jumlah data duplikat pada dataset dan di data tidak ditemukan data yang duplikat.
-
-**Alasan:** Mencegah model terpengaruh oleh entri ganda yang bisa menyebabkan informasi berulang.
-
-4. Outlier Handling (Winsorizing)
-   
-**Proses:** Menggunakan teknik winsorizing pada kolom Rating dan Rating Count dengan menggantikan nilai ekstrem di luar batas IQR dengan nilai batas atas/bawah.
-
-**Alasan:** Mengurangi pengaruh outlier ekstrem yang dapat merusak distribusi data dan menyebabkan model bias.
-
-5. Data Visualization & Exploratory Analysis
-   
-**Proses:**
-Visualisasi boxplot untuk kolom numerik guna melihat sebaran dan outlier.
-Visualisasi histogram dan pairplot untuk melihat distribusi data.
-Matriks korelasi untuk mengetahui hubungan antar fitur numerik.
-
-**Alasan:** Untuk memahami pola data, mendeteksi potensi masalah, dan menyesuaikan strategi pemodelan.
-
-6. Sampling
+5.  lokasi_tinggal
     
-**Proses:** Mengambil sampel acak sebanyak 10.000 baris dari dataset bersih.
+6.  keterlibatan_organisasi
 
-**Alasan:** Untuk mempercepat proses komputasi, terutama saat menghitung similarity matrix dan pelatihan model.
+Fitur yang memiliki banyak kategori dan kolom label dilakukan Label Encoding, misalnya pada kolom:
 
-7. Text Vectorization
-    
-**Proses:** Menggunakan TF-IDF Vectorizer pada kolom Category untuk mengubah data teks menjadi representasi numerik.
+1. prodi
+   
+2. status_DO
 
-**Alasan:** Karena sistem rekomendasi ini berbasis content-based filtering, diperlukan representasi numerik dari kategori aplikasi agar kemiripan antar aplikasi dapat dihitung.
+setelah dilakukan proses encoding, jumlah kolom meningkat menjadi 30 kolom.
+
+### e. Penyeimbangan Data dengan SMOTE
+
+Karena dataset memiliki ketidakseimbangan kelas (jumlah data Tidak, dan Ya) dengan jumlah data :
+
+Tidak : 438
+
+Ya : 162
+
+digunakan teknik SMOTE (Synthetic Minority Over-sampling Technique) untuk menyeimbangkan data latih. dan jumlah data nya menjadi
+
+Tidak : 438
+
+Ya : 438
+
+jumlah keseluruhan data juga berubah dari 600 menjadi 876
+
+### f. Pembagian Dataset
+
+Data dibagi menjadi data latih (training set) dan data uji (testing set) dengan rasio 80:20, menggunakan train_test_split. Pembagian ini dilakukan agar model dapat dievaluasi secara adil menggunakan data yang belum pernah dilihat sebelumnya.
+
+### g. Normalisasi / Scaling Fitur Numerik
+
+Fitur numerik dinormalisasi menggunakan metode StandardScaler agar memiliki distribusi dengan rata-rata 0 dan standar deviasi 1. Ini penting agar model tidak berat sebelah terhadap fitur dengan skala yang besar.
+
+### Alasan Dilakukannya Data Preparation
+
+Tahapan data preparation dilakukan untuk memastikan kualitas dan kesesuaian data dengan algoritma machine learning yang digunakan. Alasan masing-masing teknik adalah sebagai berikut:
+
+**Type Casting**: Kolom-kolom tersebut secara semantik merupakan data numerik, namun awalnya terbaca sebagai string karena format penulisan (misalnya angka desimal menggunakan koma). Untuk memungkinkan analisis statistik, visualisasi, dan pemodelan machine learning, data harus berada dalam tipe numerik. Tanpa type casting, operasi matematis tidak bisa dilakukan dan potensi kesalahan saat training model menjadi tinggi.
+
+**Penghapusan kolom**: Mengurangi noise dari fitur yang tidak informatif atau redundan.
+
+**Penanganan outlier**: Menghindari bias dalam model akibat nilai ekstrem.
+
+**Encoding**: Algoritma machine learning membutuhkan data numerik, sehingga fitur kategorikal harus diubah terlebih dahulu.
+
+**SMOTE**: Membantu model belajar dari kelas minoritas dan meningkatkan performa klasifikasi.
+
+**Pembagian data**: Agar model bisa dievaluasi secara valid.
+
+**Normalisasi**: Membantu mempercepat proses training dan membuat model lebih stabil, terutama untuk algoritma yang sensitif terhadap skala data.
 
 ## Modeling
 Tahapan ini membahas pembangunan model sistem rekomendasi yang dirancang untuk membantu pengguna menemukan aplikasi yang relevan berdasarkan preferensi atau kesamaan konten.
