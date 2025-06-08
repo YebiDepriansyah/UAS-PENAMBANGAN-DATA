@@ -152,20 +152,7 @@ c. Rating Count vs Price: -0.00 juga.
 - Artinya, fitur-fitur numerik ini tidak saling bergantung secara linear, dan bisa dianggap sebagai fitur independen dalam model sederhana.
 - Ini juga memberi sinyal bahwa kamu perlu teknik feature engineering atau transformasi lain jika ingin membangun model yang lebih baik.
 
-![image](https://github.com/user-attachments/assets/75c49f64-a23e-4fce-9288-516c4764b41b)
-
-
-![image](https://github.com/user-attachments/assets/1be4ac13-01b8-4496-a3b4-8724b88baca2)
-
-![image](https://github.com/user-attachments/assets/59a4539a-3a0e-4ed8-a020-3d86f3fd9c6b)
-
-![image](https://github.com/user-attachments/assets/fb0fbd9f-9b8a-45c7-81b0-3bd0970da952)
-
-
-![image](https://github.com/user-attachments/assets/787a05ef-ed2a-4183-a6e5-930fd9b6055f)
-
-
-![image](https://github.com/user-attachments/assets/5f58dd10-0567-4fc6-a306-9e2832d1c833)
+![image](https://github.com/user-attachments/assets/7f97abbd-60b7-4eb6-981d-ea557dc83237)
 
 
   
