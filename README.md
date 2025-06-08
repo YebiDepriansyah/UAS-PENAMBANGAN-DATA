@@ -762,58 +762,88 @@ Contoh Singkat Cara Kerja Metrik
 ### Perbandingan Hasil Evaluasi Model:
 
 - Model Support Vector Machine (SVM)
+  
   Metrik Nilai
+  
   Akurasi: 0.8750
+  
   Precision (weighted): 0.8799
+  
   Recall (weighted): 0.8750
+  
   F1 Score (weighted): 0.8746
 
   ![image](https://github.com/user-attachments/assets/80d02922-3911-403e-be6a-b5040471b6fd)
 
 
 - Model Decision Tree
+  
   Metrik Nilai
+  
   Akurasi: 0.8125
+  
   Precision (weighted): 0.8129
+  
   Recall (weighted): 0.8125
+  
   F1 Score (weighted): 0.8124
 
   ![image](https://github.com/user-attachments/assets/9ea03ca3-44fe-40f3-902d-2e70775f5c1d)
 
 
 - Random Forest
+  
   Metrik Nilai
+  
   Akurasi: 0.9034
+  
   Precision (weighted): 0.9035
+  
   Recall (weighted): 0.9034
+  
   F1 Score (weighted): 0.9034
 
 ![image](https://github.com/user-attachments/assets/492bac74-1cb2-424b-b3b7-90dd24ad8b06)
 
 - Logistic Regression
+  
   Metrik Nilai
+  
   Akurasi: 0.8523
+  
   Precision (weighted): 0.8569
+  
   Recall (weighted): 0.8523
+  
   F1 Score (weighted): 0.8518
 
 ![image](https://github.com/user-attachments/assets/506bdd67-db1d-4aa3-8a64-30e5763f4780)
 
 - Gradient Boosting Classifier
+  
   Metrik Nilai
+  
   Akurasi: 0.8864
+  
   Precision (weighted): 0.8866
+  
   Recall (weighted): 0.8864
+  
   F1 Score (weighted): 0.8863
 
 
 ![image](https://github.com/user-attachments/assets/673995e4-1751-485c-8cfe-5eb9d73dedd7)
 
 - MLPClassifier (Multi-Layer Perceptron)
+  
   Metrik Nilai
+  
   Akurasi: 0.8750
+  
   Precision (weighted): 0.8758
+  
   Recall (weighted): 0.8750
+  
   F1 Score (weighted): 0.8749
 
 ![image](https://github.com/user-attachments/assets/5d1426cf-be8b-46f5-b8b1-a6527e1407f1)
@@ -824,11 +854,22 @@ Contoh Singkat Cara Kerja Metrik
 
 **Kesimpulan Evaluasi**
 
-Pendekatan content-based filtering menghasilkan rekomendasi yang sangat relevan dan sesuai kategori, dengan precision sempurna, tetapi rekomendasi cenderung kurang beragam karena semua aplikasi sangat mirip. Pendekatan ini sangat cocok untuk pengguna yang mencari aplikasi serupa berdasarkan minat atau kategori tertentu.
+Model Random Forest menunjukkan performa terbaik dengan hasil rata-rata antar kelas:
 
-Sementara itu, pendekatan popularity-based recommendation memberikan daftar aplikasi yang secara umum paling populer dan memiliki rating tinggi. Meskipun kurang personal, pendekatan ini efektif digunakan untuk pengguna baru yang belum memiliki preferensi.
+Metrik Nilai
 
-Jika dimungkinkan di masa mendatang, sistem hybrid yang menggabungkan kedua pendekatan dapat digunakan untuk menghasilkan rekomendasi yang lebih kuat, baik dari segi relevansi maupun keberagaman.
+  Akurasi: 0.9034
+  
+  Precision (weighted): 0.9035
+  
+  Recall (weighted): 0.9034
+  
+  F1 Score (weighted): 0.9034
+
+Model ini mampu melakukan klasifikasi status mahasiswa dengan cukup baik. Akurasi yang tinggi menunjukkan bahwa prediksi model secara umum tepat, sementara nilai presisi dan recall yang seimbang mengindikasikan bahwa model mampu mengidentifikasi mahasiswa dropout maupun non-dropout secara proporsional. F1-score yang stabil menunjukkan bahwa model cukup andal dalam menangani ketidakseimbangan data antar kelas.
+
+Dengan performa seperti ini, model dapat dijadikan alat bantu yang andal bagi institusi pendidikan dalam merancang strategi pencegahan dropout, seperti memberikan intervensi dini bagi mahasiswa yang berisiko tinggi untuk tidak melanjutkan studi.
+
 
 
 
