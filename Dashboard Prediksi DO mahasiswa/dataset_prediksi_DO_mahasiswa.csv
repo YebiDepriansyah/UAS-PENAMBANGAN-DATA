@@ -1,0 +1,601 @@
+﻿id_mahasiswa;ipk_sem1;ipk_sem2;ipk_sem3;ipk_sem4;kehadiran_rata2;matkul_diulang;prodi;jenis_kelamin;aktivitas_lms;status_pekerjaan;beban_kerja;pendapatan_ortu;pendidikan_ortu;lokasi_tinggal;keterlibatan_organisasi;status_DO
+M001;3,25;2,93;3,32;3,76;80;0;Ilmu Komunikasi;Laki-laki;sangat_aktif;tidak_bekerja;0;4,12;S1;kota;aktif;Tidak
+M002;2,88;2,88;3,79;3,38;77;3;Teknik Elektro;Perempuan;sangat_aktif;tidak_bekerja;0;4,26;SMA;kota;aktif;Tidak
+M003;2,77;3,27;2,77;2,77;85;4;Hukum;Laki-laki;aktif;tidak_bekerja;0;4,89;S1;kota;tidak aktif;Tidak
+M004;3,12;2,04;2,14;2,72;84;3;Teknik Elektro;Perempuan;aktif;tidak_bekerja;0;14,4;SMA;kota;tidak aktif;Ya
+M005;2,49;3,16;2,55;2,29;64;0;Sistem Informasi;Laki-laki;aktif;tidak_bekerja;0;4,7;SD;desa;aktif;Tidak
+M006;3,73;2,89;3,03;2,29;74;0;Teknik Elektro;Laki-laki;pasif;tidak_bekerja;0;8,73;S1;desa;aktif;Tidak
+M007;2,73;3,06;2,42;3,19;76;1;Ilmu Komunikasi;Perempuan;sedang;tidak_bekerja;0;4,19;SMP;kota;aktif;Tidak
+M008;2,7;2,85;2,7;3,93;94;1;Sistem Informasi;Perempuan;sedang;tidak_bekerja;0;7,35;S1;kota;tidak aktif;Tidak
+M009;2,99;2,47;3,41;2,39;63;2;Hukum;Perempuan;aktif;tidak_bekerja;0;14,11;SMA;kota;tidak aktif;Tidak
+M010;3,1;2,02;2,34;3,1;74;1;Teknik Informatika;Perempuan;sangat_aktif;tidak_bekerja;0;14,85;SMA;kota;tidak aktif;Tidak
+M011;3,37;3,09;2,94;2,85;83;2;Pendidikan Matematika;Laki-laki;sedang;paruh_waktu;17;12,51;S1;desa;tidak aktif;Tidak
+M012;2,26;2,64;2,77;3,53;57;0;Sistem Informasi;Laki-laki;aktif;penuh_waktu;38;11,05;SMP;desa;aktif;Ya
+M013;3,17;2,12;3,16;2,81;65;3;Kedokteran;Perempuan;sangat_aktif;tidak_bekerja;0;11,43;SMA;desa;aktif;Tidak
+M014;2,66;3,31;3,52;3,47;97;4;Ilmu Komunikasi;Perempuan;aktif;tidak_bekerja;0;14,97;SMA;kota;tidak aktif;Tidak
+M015;2,58;2,85;3,17;3,49;88;0;Sistem Informasi;Laki-laki;sedang;tidak_bekerja;0;3,24;SMA;kota;aktif;Tidak
+M016;2,76;2,91;2,45;2,4;64;3;Sistem Informasi;Laki-laki;aktif;tidak_bekerja;0;4,52;SMA;kota;tidak aktif;Ya
+M017;3,41;3,68;2,96;3,5;83;0;Kedokteran;Laki-laki;sedang;paruh_waktu;18;11,76;SMA;desa;aktif;Tidak
+M018;3,18;2,68;3,18;3,77;67;1;Hukum;Perempuan;aktif;penuh_waktu;38;11,08;S2;kota;tidak aktif;Tidak
+M019;2,98;3,78;1,69;3,41;72;0;Sistem Informasi;Laki-laki;sedang;tidak_bekerja;0;9,95;SMA;kota;aktif;Tidak
+M020;3,04;2,85;3,05;2,01;63;1;Pendidikan Matematika;Laki-laki;aktif;paruh_waktu;26;13,86;SMA;desa;aktif;Tidak
+M021;2,89;3,18;3,74;2,74;41;0;Teknik Elektro;Laki-laki;pasif;penuh_waktu;36;12,29;SMP;kota;tidak aktif;Ya
+M022;2,6;2,75;3,46;3,16;96;4;Hukum;Perempuan;pasif;tidak_bekerja;0;7,8;SD;kota;aktif;Tidak
+M023;2,74;3,26;3,05;3,48;48;3;Pendidikan Matematika;Perempuan;pasif;tidak_bekerja;0;8,39;SMA;kota;aktif;Ya
+M024;2,65;2,84;2,8;2,27;99;4;Hukum;Laki-laki;sedang;paruh_waktu;32;5,36;S2;desa;aktif;Tidak
+M025;3,15;3,13;3;2,88;68;4;Pendidikan Matematika;Perempuan;aktif;tidak_bekerja;0;1,9;SD;kota;tidak aktif;Tidak
+M026;2,29;2,79;2,83;2,6;77;1;Ilmu Komunikasi;Perempuan;sangat_aktif;paruh_waktu;11;4,21;S2;desa;aktif;Tidak
+M027;2,92;3,2;3,94;3,09;44;4;Pendidikan Matematika;Perempuan;aktif;paruh_waktu;16;8,55;S1;desa;aktif;Tidak
+M028;3,13;2,96;2,04;2,99;55;3;Akuntansi;Laki-laki;sedang;tidak_bekerja;0;2,36;SMA;desa;tidak aktif;Ya
+M029;3,03;4;2,9;3,15;66;3;Pendidikan Matematika;Perempuan;sedang;tidak_bekerja;0;10,15;SMA;kota;aktif;Tidak
+M030;2,98;2,42;3,57;3,38;65;2;Teknik Informatika;Laki-laki;sedang;tidak_bekerja;0;3,68;SMA;kota;aktif;Tidak
+M031;3,4;2,55;3,7;2,3;67;1;Teknik Informatika;Perempuan;aktif;tidak_bekerja;0;13,93;SMA;kota;tidak aktif;Tidak
+M032;3,29;4;2,5;2,72;43;4;Teknik Sipil;Laki-laki;sedang;penuh_waktu;39;11,55;SMP;desa;tidak aktif;Ya
+M033;3,05;2,75;2,22;3,03;71;3;Akuntansi;Laki-laki;aktif;tidak_bekerja;0;1,82;SMA;desa;tidak aktif;Ya
+M034;2,47;3,24;2,54;3,77;56;3;Akuntansi;Laki-laki;aktif;paruh_waktu;33;14,94;SMA;desa;tidak aktif;Ya
+M035;2,61;2,84;3,41;2,38;49;1;Teknik Elektro;Perempuan;aktif;penuh_waktu;28;11,3;SD;desa;aktif;Ya
+M036;3,11;3,65;2,2;3,09;43;0;Akuntansi;Perempuan;aktif;paruh_waktu;37;8,44;SD;kota;tidak aktif;Tidak
+M037;3,13;3,39;2,38;2,34;94;1;Teknik Elektro;Laki-laki;sangat_aktif;tidak_bekerja;0;13,07;SMA;kota;aktif;Tidak
+M038;3,26;3,15;3,13;3,17;77;4;Teknik Sipil;Perempuan;sangat_aktif;tidak_bekerja;0;10,2;SMA;desa;aktif;Tidak
+M039;2,66;3,12;3,15;2,64;99;2;Teknik Sipil;Perempuan;aktif;paruh_waktu;17;4,72;SMP;desa;aktif;Tidak
+M040;3,93;3,24;2,4;3,33;69;2;Ilmu Komunikasi;Perempuan;pasif;penuh_waktu;10;7,42;S2;kota;aktif;Ya
+M041;2,51;3,39;3,58;2,59;44;4;Teknik Informatika;Perempuan;aktif;tidak_bekerja;0;14,07;S1;kota;tidak aktif;Tidak
+M042;3,48;3,21;3,41;3,95;63;2;Pendidikan Matematika;Laki-laki;sangat_aktif;penuh_waktu;32;5,24;S2;kota;tidak aktif;Tidak
+M043;2,88;2,62;2,56;2,59;82;4;Pendidikan Matematika;Perempuan;aktif;paruh_waktu;40;13,29;SMP;kota;aktif;Tidak
+M044;2,96;3,17;3,14;3,41;87;4;Kedokteran;Perempuan;sangat_aktif;tidak_bekerja;0;3,95;SMA;desa;tidak aktif;Tidak
+M045;3,01;3,73;2,87;4;72;3;Kedokteran;Perempuan;aktif;penuh_waktu;11;2,29;SMA;desa;tidak aktif;Ya
+M046;3,31;2,57;2,46;3,24;42;0;Manajemen;Perempuan;aktif;tidak_bekerja;0;14,72;SMP;desa;aktif;Tidak
+M047;2,89;3,36;3,24;2,96;75;3;Hukum;Laki-laki;aktif;tidak_bekerja;0;14,23;SMA;kota;aktif;Tidak
+M048;2,58;2,24;2,78;3,43;74;0;Ilmu Komunikasi;Perempuan;sedang;paruh_waktu;14;7,02;SD;desa;tidak aktif;Tidak
+M049;3,11;2,38;3,09;3,19;97;0;Manajemen;Perempuan;sedang;tidak_bekerja;0;4,49;SMP;desa;tidak aktif;Tidak
+M050;2,56;3,08;3,03;2,43;79;1;Manajemen;Perempuan;pasif;tidak_bekerja;0;3,28;S1;kota;aktif;Tidak
+M051;3,18;3,28;3,54;3,53;96;3;Sistem Informasi;Perempuan;sangat_aktif;paruh_waktu;20;11,95;SMA;kota;tidak aktif;Tidak
+M052;2,31;2,53;3,26;3,26;57;1;Sistem Informasi;Perempuan;sedang;tidak_bekerja;0;13,21;S1;kota;aktif;Tidak
+M053;3,26;4;3,29;3,57;52;3;Manajemen;Perempuan;aktif;penuh_waktu;37;4,19;SD;kota;tidak aktif;Ya
+M054;3,48;3,33;2,84;3,38;65;2;Akuntansi;Perempuan;aktif;tidak_bekerja;0;11,83;SMA;desa;tidak aktif;Tidak
+M055;2,61;2,88;2,76;3,04;83;4;Hukum;Laki-laki;aktif;tidak_bekerja;0;13,28;SMP;desa;tidak aktif;Tidak
+M056;4;2,07;3,34;2,19;42;0;Ilmu Komunikasi;Laki-laki;aktif;tidak_bekerja;0;12,01;SMA;kota;aktif;Ya
+M057;2,76;3,54;3,03;2,46;64;4;Manajemen;Perempuan;sangat_aktif;tidak_bekerja;0;7,1;SMA;kota;aktif;Tidak
+M058;2,64;3,34;2,63;3,11;63;3;Pendidikan Matematika;Perempuan;sangat_aktif;paruh_waktu;20;9,72;SMA;kota;tidak aktif;Tidak
+M059;3,02;2,67;4;3,32;86;2;Hukum;Laki-laki;aktif;paruh_waktu;20;6,63;SMP;kota;aktif;Tidak
+M060;1,99;3,09;2,67;3,43;52;3;Sistem Informasi;Laki-laki;sedang;tidak_bekerja;0;11,47;SMP;desa;aktif;Ya
+M061;2,6;2,94;3,25;3,43;65;4;Pendidikan Matematika;Perempuan;sedang;tidak_bekerja;0;3,94;S1;desa;aktif;Tidak
+M062;2,4;2,83;2,76;2,67;69;3;Sistem Informasi;Perempuan;aktif;tidak_bekerja;0;7,62;S2;kota;aktif;Tidak
+M063;3,88;3,2;2,37;3,46;82;0;Sistem Informasi;Laki-laki;aktif;paruh_waktu;29;5,69;S1;kota;aktif;Tidak
+M064;4;3,52;2,24;2,76;83;2;Hukum;Perempuan;aktif;tidak_bekerja;0;1,34;SMP;desa;aktif;Tidak
+M065;3,63;2,65;3,22;3,39;79;0;Sistem Informasi;Laki-laki;aktif;penuh_waktu;28;3,72;SMA;desa;aktif;Tidak
+M066;2,54;2,97;1,38;2,49;65;1;Teknik Sipil;Perempuan;sangat_aktif;paruh_waktu;38;11,51;S1;kota;aktif;Tidak
+M067;2,87;2,38;3,82;2,28;89;3;Teknik Informatika;Laki-laki;aktif;penuh_waktu;32;8,25;SD;kota;aktif;Ya
+M068;2,78;3,07;3,72;2,28;98;0;Teknik Sipil;Perempuan;aktif;penuh_waktu;31;8,44;SMA;desa;aktif;Tidak
+M069;3,58;3,01;2,51;3,23;100;3;Teknik Informatika;Laki-laki;sedang;paruh_waktu;26;6,97;S2;desa;tidak aktif;Tidak
+M070;3,1;2,7;3,03;2,81;97;1;Kedokteran;Perempuan;sedang;tidak_bekerja;0;4,63;SMP;desa;aktif;Tidak
+M071;3,06;3,33;3,79;2,38;89;4;Kedokteran;Perempuan;aktif;tidak_bekerja;0;7,16;S1;kota;tidak aktif;Tidak
+M072;4;2,02;2,92;3,29;57;2;Sistem Informasi;Laki-laki;aktif;paruh_waktu;14;3,11;SMA;kota;aktif;Tidak
+M073;3,14;2,69;2,9;2,75;85;1;Ilmu Komunikasi;Laki-laki;sangat_aktif;tidak_bekerja;0;8,6;SMA;kota;aktif;Tidak
+M074;2,71;3,42;3,18;2,65;93;3;Ilmu Komunikasi;Perempuan;aktif;paruh_waktu;40;10,74;S1;desa;tidak aktif;Tidak
+M075;3,45;3,15;3,41;3,31;70;0;Teknik Informatika;Perempuan;pasif;tidak_bekerja;0;6,46;S1;desa;tidak aktif;Tidak
+M076;2,59;2,72;3,37;3,31;74;4;Pendidikan Matematika;Perempuan;sedang;penuh_waktu;25;4,07;SMA;kota;tidak aktif;Tidak
+M077;2,99;3,06;3,64;2,7;64;2;Hukum;Laki-laki;sedang;paruh_waktu;33;3,31;SMA;kota;tidak aktif;Tidak
+M078;3,27;2,9;2,89;3,55;79;4;Sistem Informasi;Laki-laki;sangat_aktif;tidak_bekerja;0;8,9;SD;desa;tidak aktif;Tidak
+M079;3,41;3,41;3,65;3,01;48;3;Hukum;Laki-laki;sangat_aktif;tidak_bekerja;0;5,58;SMA;desa;tidak aktif;Tidak
+M080;3,34;2,84;3,16;2,93;88;3;Teknik Sipil;Perempuan;aktif;penuh_waktu;23;4,53;SD;kota;aktif;Tidak
+M081;3,05;3,3;2,59;4;87;4;Ilmu Komunikasi;Laki-laki;sangat_aktif;penuh_waktu;17;10,1;S1;kota;aktif;Tidak
+M082;2,5;2,39;3,58;3,4;88;0;Akuntansi;Perempuan;pasif;tidak_bekerja;0;1,29;SMP;kota;aktif;Ya
+M083;3,31;3,31;2,99;2,55;70;0;Teknik Sipil;Laki-laki;aktif;tidak_bekerja;0;10,79;S1;kota;tidak aktif;Tidak
+M084;3,04;2,66;3,49;2,93;78;4;Teknik Sipil;Perempuan;pasif;paruh_waktu;34;12,47;S2;kota;tidak aktif;Tidak
+M085;2,59;2,84;3,21;2,72;77;0;Teknik Informatika;Perempuan;pasif;paruh_waktu;39;14,41;SMA;kota;tidak aktif;Tidak
+M086;2,59;3,12;3,12;2,75;44;4;Teknik Elektro;Laki-laki;sedang;paruh_waktu;13;10,76;SMA;kota;tidak aktif;Tidak
+M087;2,76;3,12;2,28;2,3;90;4;Teknik Sipil;Laki-laki;sedang;tidak_bekerja;0;7;SMA;desa;tidak aktif;Ya
+M088;2,64;2,89;3,16;3,74;40;3;Sistem Informasi;Laki-laki;sedang;tidak_bekerja;0;14,45;SMA;desa;tidak aktif;Tidak
+M089;3,43;2,92;2,99;2,5;85;1;Manajemen;Laki-laki;aktif;paruh_waktu;40;10,11;SMA;desa;aktif;Tidak
+M090;2,99;2,86;3,16;2,59;69;3;Manajemen;Perempuan;sedang;paruh_waktu;20;12,92;S1;kota;aktif;Tidak
+M091;3,26;3,77;2,95;3,2;57;3;Sistem Informasi;Perempuan;aktif;tidak_bekerja;0;9,54;SMA;kota;tidak aktif;Tidak
+M092;3,35;2,8;3,11;3,01;71;2;Teknik Elektro;Laki-laki;sangat_aktif;tidak_bekerja;0;12,17;SMA;desa;tidak aktif;Tidak
+M093;3,05;2,61;3,01;3,25;75;0;Teknik Elektro;Perempuan;aktif;tidak_bekerja;0;4,38;SMA;kota;tidak aktif;Tidak
+M094;3,73;3,48;4;2,62;84;3;Teknik Informatika;Perempuan;sedang;tidak_bekerja;0;12,1;SD;kota;tidak aktif;Tidak
+M095;3,44;3,09;4;2,6;65;1;Ilmu Komunikasi;Perempuan;aktif;paruh_waktu;25;8,75;SMA;desa;aktif;Tidak
+M096;2,58;2,7;1,94;2,74;62;3;Hukum;Perempuan;aktif;tidak_bekerja;0;2,69;SMP;kota;aktif;Ya
+M097;2,62;3,08;3,17;3,94;87;4;Teknik Elektro;Laki-laki;pasif;paruh_waktu;16;4,03;SMA;desa;tidak aktif;Tidak
+M098;3,48;2,71;2,55;3,25;46;1;Akuntansi;Laki-laki;aktif;tidak_bekerja;0;5,23;S1;kota;aktif;Tidak
+M099;2,34;3,92;3,59;2,77;57;0;Teknik Informatika;Perempuan;pasif;paruh_waktu;32;14,22;SMA;desa;tidak aktif;Ya
+M100;2,14;3,68;2,94;3,62;46;0;Kedokteran;Perempuan;aktif;tidak_bekerja;0;7,17;SMP;kota;aktif;Tidak
+M101;2,2;2,7;3;3,02;56;3;Pendidikan Matematika;Perempuan;sangat_aktif;tidak_bekerja;0;7,88;SMA;kota;tidak aktif;Ya
+M102;2,77;3,31;2,47;2,93;49;1;Kedokteran;Laki-laki;sedang;penuh_waktu;12;14,91;SMP;desa;tidak aktif;Ya
+M103;3,06;3,26;3,36;2,44;78;4;Teknik Informatika;Perempuan;sedang;tidak_bekerja;0;8,32;SMA;desa;tidak aktif;Tidak
+M104;2,23;3,64;3,17;2,63;59;4;Teknik Sipil;Laki-laki;pasif;tidak_bekerja;0;9,69;SMA;kota;tidak aktif;Ya
+M105;3,78;3,06;3,59;3,03;100;1;Hukum;Laki-laki;sedang;tidak_bekerja;0;2,14;SMP;kota;tidak aktif;Tidak
+M106;4;3,88;2,88;3,49;50;0;Pendidikan Matematika;Laki-laki;aktif;paruh_waktu;25;5,08;SMP;desa;tidak aktif;Tidak
+M107;3,32;3,68;2,52;3,34;84;3;Kedokteran;Perempuan;sangat_aktif;tidak_bekerja;0;4,7;S1;kota;aktif;Tidak
+M108;3,53;2,12;2,41;1,98;67;0;Pendidikan Matematika;Laki-laki;aktif;paruh_waktu;39;4,72;SMP;kota;aktif;Ya
+M109;2,87;3,36;3,75;3,04;50;2;Akuntansi;Perempuan;aktif;penuh_waktu;39;5,04;SMP;desa;aktif;Tidak
+M110;3,81;2,31;2,15;2,97;84;3;Akuntansi;Perempuan;pasif;paruh_waktu;25;7,13;SMA;desa;tidak aktif;Ya
+M111;3,19;2,98;1,97;2,96;87;2;Akuntansi;Laki-laki;sedang;tidak_bekerja;0;4,2;SMA;kota;tidak aktif;Tidak
+M112;2,35;3,33;3,18;2,53;88;2;Teknik Informatika;Laki-laki;aktif;paruh_waktu;15;7,59;SMA;desa;tidak aktif;Tidak
+M113;2,74;2,47;2,97;3,48;51;4;Hukum;Laki-laki;aktif;penuh_waktu;12;7,58;SMA;desa;aktif;Ya
+M114;2,51;3,25;2,73;2,6;82;0;Teknik Informatika;Perempuan;sedang;tidak_bekerja;0;10,71;SMP;desa;aktif;Tidak
+M115;2,95;2,48;2,72;2,4;92;4;Manajemen;Laki-laki;sangat_aktif;tidak_bekerja;0;4,53;SMP;desa;aktif;Ya
+M116;3,98;3,02;2,65;3,11;95;4;Teknik Sipil;Laki-laki;sedang;tidak_bekerja;0;13,17;SMA;kota;aktif;Tidak
+M117;2,94;2,89;3,31;3,38;52;4;Teknik Sipil;Laki-laki;aktif;paruh_waktu;30;7,19;SD;desa;tidak aktif;Tidak
+M118;2,73;2,71;2,86;1,85;75;1;Akuntansi;Laki-laki;pasif;tidak_bekerja;0;10,78;SMP;kota;aktif;Tidak
+M119;2,24;3,68;3,82;2,88;85;1;Manajemen;Perempuan;aktif;tidak_bekerja;0;6,71;SMP;kota;aktif;Tidak
+M120;3,29;3,16;4;3,56;69;0;Teknik Elektro;Laki-laki;sedang;tidak_bekerja;0;14,06;SMP;desa;aktif;Tidak
+M121;2,94;2,52;2,2;3,1;66;3;Teknik Elektro;Laki-laki;pasif;tidak_bekerja;0;8,72;SMA;kota;tidak aktif;Ya
+M122;2,62;2,29;2,68;2,46;95;0;Akuntansi;Laki-laki;aktif;paruh_waktu;23;5,76;S1;desa;tidak aktif;Tidak
+M123;3,84;3,44;3;3,74;92;0;Kedokteran;Laki-laki;aktif;tidak_bekerja;0;9,22;S2;desa;tidak aktif;Tidak
+M124;3,04;2,57;3,76;3,27;95;1;Teknik Informatika;Perempuan;aktif;tidak_bekerja;0;5,65;S1;desa;tidak aktif;Tidak
+M125;2,48;2,9;2,56;2,31;69;2;Akuntansi;Perempuan;sedang;penuh_waktu;17;9,01;SMP;desa;tidak aktif;Ya
+M126;3,46;3,95;2,3;3,28;42;2;Ilmu Komunikasi;Perempuan;sedang;paruh_waktu;35;6,34;S2;kota;aktif;Tidak
+M127;2,67;2,76;2,7;2,57;71;0;Pendidikan Matematika;Perempuan;sangat_aktif;penuh_waktu;20;13,18;S1;desa;tidak aktif;Tidak
+M128;3,02;2,58;3,14;2,97;46;4;Teknik Sipil;Perempuan;pasif;tidak_bekerja;0;3,02;S1;kota;aktif;Ya
+M129;2,88;2,55;2,71;3,38;44;3;Teknik Elektro;Perempuan;sedang;tidak_bekerja;0;9,73;SMA;kota;tidak aktif;Tidak
+M130;3,25;2,51;3,05;3,38;94;2;Sistem Informasi;Laki-laki;sedang;penuh_waktu;22;14,36;SMA;desa;tidak aktif;Tidak
+M131;2,17;3,27;2,67;3,29;95;4;Teknik Elektro;Laki-laki;sangat_aktif;tidak_bekerja;0;9,84;S2;kota;tidak aktif;Tidak
+M132;2,62;2,1;2,19;3,02;87;0;Teknik Sipil;Perempuan;aktif;tidak_bekerja;0;9,87;S1;desa;aktif;Tidak
+M133;3,13;2,55;3,32;2,17;50;2;Pendidikan Matematika;Laki-laki;pasif;tidak_bekerja;0;12,15;SMP;desa;tidak aktif;Ya
+M134;2,97;2,39;2,67;3,02;67;1;Teknik Sipil;Perempuan;aktif;tidak_bekerja;0;10,55;SMP;kota;aktif;Tidak
+M135;2,57;2,81;3,5;2,71;45;4;Sistem Informasi;Perempuan;sedang;paruh_waktu;17;7,97;SMA;kota;aktif;Tidak
+M136;3,42;2,44;3,26;3,72;69;2;Akuntansi;Laki-laki;aktif;paruh_waktu;38;12,26;S2;kota;aktif;Tidak
+M137;1,76;2,6;3,29;2,9;44;3;Manajemen;Perempuan;pasif;penuh_waktu;19;9,95;SMA;desa;tidak aktif;Ya
+M138;3,19;2,7;3,04;2,92;69;2;Sistem Informasi;Perempuan;sangat_aktif;tidak_bekerja;0;7,76;SMP;desa;aktif;Tidak
+M139;3,58;3,13;3,17;2,79;76;2;Teknik Sipil;Perempuan;pasif;tidak_bekerja;0;14,69;SMA;desa;aktif;Tidak
+M140;2,76;2,78;3,2;2,79;40;4;Teknik Sipil;Laki-laki;sedang;paruh_waktu;11;13,75;S1;desa;aktif;Tidak
+M141;3,14;4;3,44;2,84;89;1;Ilmu Komunikasi;Laki-laki;sedang;tidak_bekerja;0;9,91;SMA;kota;tidak aktif;Tidak
+M142;3,6;2,8;1,98;2,5;80;0;Ilmu Komunikasi;Perempuan;pasif;paruh_waktu;19;12,04;SD;desa;aktif;Tidak
+M143;2,06;2,82;3,01;3,84;86;1;Hukum;Laki-laki;sangat_aktif;tidak_bekerja;0;11,46;SMP;kota;tidak aktif;Tidak
+M144;3,16;2,89;3,41;1,89;90;4;Ilmu Komunikasi;Laki-laki;sedang;tidak_bekerja;0;8,03;SMP;kota;aktif;Tidak
+M145;3,12;3,39;2,26;3,57;56;3;Teknik Informatika;Perempuan;pasif;tidak_bekerja;0;13,19;S1;desa;aktif;Ya
+M146;3,17;2,79;3,32;4;44;1;Manajemen;Perempuan;sedang;tidak_bekerja;0;10,47;SMA;desa;aktif;Tidak
+M147;3,09;3,12;2,77;2,58;94;4;Pendidikan Matematika;Perempuan;aktif;paruh_waktu;10;4,7;SMP;desa;aktif;Tidak
+M148;3,42;2,57;3,04;2,76;83;2;Sistem Informasi;Perempuan;aktif;penuh_waktu;40;6,2;SMA;desa;tidak aktif;Tidak
+M149;3,24;3,17;3,52;2,74;41;4;Teknik Sipil;Laki-laki;sedang;paruh_waktu;39;9,54;SMA;desa;tidak aktif;Tidak
+M150;2,87;2,51;2,78;3,19;98;2;Hukum;Perempuan;sedang;tidak_bekerja;0;1,63;SD;desa;tidak aktif;Tidak
+M151;3,38;2,54;3,43;3,68;47;0;Hukum;Laki-laki;aktif;paruh_waktu;22;7,35;SMA;desa;tidak aktif;Tidak
+M152;3,21;3,94;2,61;2,38;77;1;Pendidikan Matematika;Perempuan;sedang;paruh_waktu;36;7,85;SMA;desa;aktif;Tidak
+M153;2,11;3,75;3,33;2,97;42;2;Manajemen;Laki-laki;aktif;tidak_bekerja;0;4,31;SMA;desa;tidak aktif;Tidak
+M154;3,14;2,44;4;3,06;74;2;Sistem Informasi;Perempuan;sangat_aktif;tidak_bekerja;0;14,55;S2;desa;tidak aktif;Tidak
+M155;3,05;3,36;3,24;3,11;45;1;Teknik Elektro;Perempuan;sedang;paruh_waktu;10;1,71;SMA;kota;aktif;Tidak
+M156;2,6;3,24;3,94;3,67;90;4;Ilmu Komunikasi;Laki-laki;aktif;penuh_waktu;27;3,9;SMP;kota;tidak aktif;Tidak
+M157;3,8;2,74;2,51;2,94;61;1;Akuntansi;Perempuan;sedang;paruh_waktu;18;13,02;SMP;kota;tidak aktif;Tidak
+M158;3,03;3,55;2,15;3,76;74;2;Hukum;Perempuan;sedang;tidak_bekerja;0;13,13;SMP;desa;tidak aktif;Tidak
+M159;2,92;2,79;2,49;2,17;90;1;Ilmu Komunikasi;Perempuan;aktif;tidak_bekerja;0;4,72;SMP;desa;tidak aktif;Tidak
+M160;3,41;3,04;2,36;2,35;73;0;Ilmu Komunikasi;Laki-laki;sedang;tidak_bekerja;0;11,89;SMA;kota;tidak aktif;Tidak
+M161;2,83;3,83;2,87;2,25;68;4;Teknik Informatika;Perempuan;aktif;paruh_waktu;33;11,97;S1;desa;tidak aktif;Tidak
+M162;2,88;2,86;1,65;2,97;69;0;Manajemen;Laki-laki;sangat_aktif;tidak_bekerja;0;6,62;SMA;desa;tidak aktif;Tidak
+M163;2,88;3,35;3,92;3,56;85;3;Akuntansi;Laki-laki;sangat_aktif;tidak_bekerja;0;9,52;SD;desa;aktif;Tidak
+M164;2,87;2,45;4;3,03;79;4;Teknik Elektro;Laki-laki;aktif;tidak_bekerja;0;14,92;SMA;desa;aktif;Tidak
+M165;3,01;2,99;3,1;2,93;72;4;Teknik Sipil;Perempuan;aktif;paruh_waktu;13;12,94;SMA;kota;aktif;Tidak
+M166;2,71;2,73;2,98;2,73;67;3;Teknik Informatika;Perempuan;sedang;tidak_bekerja;0;12,58;SMA;kota;aktif;Tidak
+M167;2,64;3,05;2,87;3,75;60;3;Ilmu Komunikasi;Perempuan;aktif;tidak_bekerja;0;14,35;SMA;desa;aktif;Tidak
+M168;1,67;3,55;3,62;1,96;44;0;Ilmu Komunikasi;Perempuan;sedang;tidak_bekerja;0;2,35;S1;kota;aktif;Ya
+M169;2,83;2,81;2,3;2,61;75;0;Kedokteran;Perempuan;aktif;paruh_waktu;20;10,38;SMA;desa;tidak aktif;Tidak
+M170;2,44;3,88;3,47;3,64;95;0;Akuntansi;Laki-laki;pasif;paruh_waktu;21;2,45;SMA;kota;tidak aktif;Ya
+M171;3,36;2,44;2,74;3,24;82;3;Akuntansi;Perempuan;aktif;tidak_bekerja;0;12,84;SMA;desa;tidak aktif;Tidak
+M172;2,39;3,36;2,88;2,81;76;1;Kedokteran;Perempuan;sedang;penuh_waktu;34;12,46;SMA;kota;aktif;Tidak
+M173;3,36;3,22;2,82;3,58;78;2;Akuntansi;Perempuan;sangat_aktif;tidak_bekerja;0;11,67;S2;desa;tidak aktif;Tidak
+M174;2,46;3,31;3,3;2,85;40;1;Ilmu Komunikasi;Laki-laki;sedang;paruh_waktu;22;1,97;S1;kota;aktif;Ya
+M175;3,16;2,37;3,46;2,91;45;4;Hukum;Perempuan;aktif;tidak_bekerja;0;5,77;SMA;desa;tidak aktif;Ya
+M176;2,74;3,52;2,65;2,3;89;4;Sistem Informasi;Perempuan;aktif;penuh_waktu;14;3,2;SMA;kota;aktif;Ya
+M177;2,22;3,3;2,36;3,88;57;3;Ilmu Komunikasi;Laki-laki;sedang;tidak_bekerja;0;7,19;SMP;kota;aktif;Ya
+M178;1,96;3,85;3,11;2,95;62;3;Teknik Informatika;Perempuan;sangat_aktif;paruh_waktu;28;7,81;SMA;kota;tidak aktif;Tidak
+M179;2,73;3,2;2,98;3,55;54;3;Manajemen;Perempuan;pasif;tidak_bekerja;0;3,86;S2;kota;tidak aktif;Ya
+M180;3,06;3,08;2,82;2,97;88;2;Kedokteran;Perempuan;aktif;tidak_bekerja;0;7,96;SMA;kota;aktif;Tidak
+M181;3,15;2,14;2,33;3,37;64;4;Teknik Elektro;Perempuan;sedang;paruh_waktu;36;10,35;SMA;desa;aktif;Ya
+M182;3,09;2,91;3,01;3,17;95;0;Teknik Sipil;Laki-laki;aktif;tidak_bekerja;0;2,09;SMA;desa;aktif;Tidak
+M183;2,73;2,61;3,1;2,51;76;3;Teknik Elektro;Perempuan;sedang;tidak_bekerja;0;2,61;SD;desa;aktif;Tidak
+M184;3,2;2,15;3,51;3,24;50;4;Ilmu Komunikasi;Laki-laki;aktif;paruh_waktu;21;2,23;S1;kota;aktif;Ya
+M185;3,13;3,49;3,83;3,51;67;4;Teknik Informatika;Laki-laki;aktif;tidak_bekerja;0;13,19;S1;kota;aktif;Tidak
+M186;2,08;2,36;2,69;3,01;61;1;Ilmu Komunikasi;Perempuan;sangat_aktif;paruh_waktu;26;8,14;S2;desa;tidak aktif;Tidak
+M187;3,26;2,64;3,09;2,62;62;1;Manajemen;Perempuan;aktif;tidak_bekerja;0;3,76;SMA;kota;aktif;Tidak
+M188;2,69;2,3;2,54;2,32;51;3;Hukum;Perempuan;aktif;paruh_waktu;28;7,28;S2;desa;aktif;Ya
+M189;2,51;3,53;2,53;4;95;2;Teknik Sipil;Perempuan;sangat_aktif;tidak_bekerja;0;7,19;SMA;desa;aktif;Tidak
+M190;3,25;3,09;2,57;3,35;77;0;Manajemen;Perempuan;aktif;tidak_bekerja;0;7,46;SD;desa;aktif;Tidak
+M191;2,71;3,06;4;2,95;93;2;Kedokteran;Laki-laki;sangat_aktif;penuh_waktu;37;2,26;SMA;desa;aktif;Tidak
+M192;3,57;2,65;2,98;3,89;69;4;Kedokteran;Laki-laki;aktif;paruh_waktu;38;1,57;S2;kota;tidak aktif;Tidak
+M193;2,69;3,91;3,35;2,72;60;4;Ilmu Komunikasi;Laki-laki;aktif;tidak_bekerja;0;1,87;SMP;desa;tidak aktif;Tidak
+M194;3,32;3,49;3,31;2,21;85;0;Teknik Informatika;Laki-laki;aktif;tidak_bekerja;0;4,47;SMA;desa;aktif;Tidak
+M195;2,64;2,88;2,96;3,31;73;4;Manajemen;Perempuan;sedang;tidak_bekerja;0;13,85;SMA;desa;tidak aktif;Tidak
+M196;3,09;2,33;3,19;3,31;83;4;Pendidikan Matematika;Laki-laki;sangat_aktif;paruh_waktu;20;1,92;SD;desa;tidak aktif;Ya
+M197;3,28;3,54;3,42;3,23;58;2;Teknik Informatika;Laki-laki;sedang;paruh_waktu;39;9,44;SMP;kota;tidak aktif;Tidak
+M198;2,96;2,17;3,21;3,1;77;1;Hukum;Laki-laki;pasif;tidak_bekerja;0;10,18;SMA;kota;aktif;Tidak
+M199;3,14;2,36;2,46;3,53;78;0;Kedokteran;Laki-laki;aktif;tidak_bekerja;0;12,08;S1;kota;aktif;Tidak
+M200;2,98;3,34;3,01;3,01;81;3;Ilmu Komunikasi;Laki-laki;aktif;tidak_bekerja;0;5,32;S2;desa;tidak aktif;Tidak
+M201;3,47;2,74;3,05;2,77;100;3;Akuntansi;Laki-laki;sangat_aktif;penuh_waktu;14;2,08;S1;kota;aktif;Ya
+M202;2,78;2,85;3,11;2,76;72;4;Kedokteran;Perempuan;sedang;penuh_waktu;11;10,27;S1;kota;tidak aktif;Tidak
+M203;3,63;2,55;2,91;2,78;78;3;Teknik Sipil;Laki-laki;sangat_aktif;tidak_bekerja;0;10,7;SMA;kota;aktif;Tidak
+M204;3,72;3,1;3,52;2,26;86;3;Sistem Informasi;Laki-laki;sangat_aktif;tidak_bekerja;0;11,07;S2;desa;aktif;Tidak
+M205;3,13;3,44;3,04;3,53;88;3;Akuntansi;Perempuan;aktif;tidak_bekerja;0;14,52;S1;kota;tidak aktif;Tidak
+M206;2,74;3,7;4;2,82;63;4;Ilmu Komunikasi;Perempuan;pasif;tidak_bekerja;0;4,94;SMA;desa;aktif;Tidak
+M207;2,78;3,73;3,79;2,74;50;1;Pendidikan Matematika;Laki-laki;sedang;tidak_bekerja;0;4,5;SMA;desa;aktif;Tidak
+M208;2,79;2,86;2,33;2,54;75;0;Akuntansi;Laki-laki;sedang;paruh_waktu;13;4,99;S1;desa;tidak aktif;Tidak
+M209;2,5;2,62;2,98;3,12;68;4;Teknik Sipil;Laki-laki;sangat_aktif;tidak_bekerja;0;14,25;SMP;desa;tidak aktif;Tidak
+M210;3,78;2,5;3,49;2,89;96;2;Teknik Informatika;Perempuan;pasif;tidak_bekerja;0;6,55;SMA;desa;aktif;Tidak
+M211;2,98;3,34;2,44;3,19;45;2;Pendidikan Matematika;Perempuan;aktif;tidak_bekerja;0;2,39;S1;desa;tidak aktif;Ya
+M212;3,08;3,25;3,14;4;90;1;Kedokteran;Laki-laki;sangat_aktif;tidak_bekerja;0;12,62;SMA;kota;tidak aktif;Tidak
+M213;2,68;2,73;2,69;2,72;88;3;Pendidikan Matematika;Perempuan;aktif;tidak_bekerja;0;2,11;SMP;kota;tidak aktif;Tidak
+M214;2,68;3,59;3,71;2,71;75;4;Manajemen;Perempuan;aktif;tidak_bekerja;0;5,03;SMA;kota;tidak aktif;Tidak
+M215;2,58;3,24;2,72;3,32;55;3;Teknik Sipil;Perempuan;sedang;paruh_waktu;12;2,55;S2;kota;tidak aktif;Ya
+M216;3,1;2,24;3,77;3,9;80;4;Akuntansi;Perempuan;aktif;paruh_waktu;19;7,01;SMA;kota;tidak aktif;Tidak
+M217;2,69;2,81;3,14;3,17;76;3;Manajemen;Perempuan;sangat_aktif;paruh_waktu;26;14,65;SD;kota;aktif;Tidak
+M218;3,33;4;2,91;2,6;64;3;Pendidikan Matematika;Laki-laki;sangat_aktif;tidak_bekerja;0;6,23;S1;desa;tidak aktif;Tidak
+M219;2,31;2,63;2,98;3,9;90;0;Manajemen;Perempuan;aktif;paruh_waktu;30;2,45;SMA;desa;aktif;Tidak
+M220;2,74;3,11;2,99;3,59;48;0;Teknik Elektro;Perempuan;aktif;tidak_bekerja;0;10;S1;desa;tidak aktif;Tidak
+M221;4;2,73;2,76;3,52;84;3;Teknik Sipil;Perempuan;sedang;penuh_waktu;12;11,02;S2;kota;tidak aktif;Tidak
+M222;3,34;3,92;3,29;2,82;58;1;Hukum;Perempuan;sangat_aktif;tidak_bekerja;0;1,59;S2;desa;tidak aktif;Tidak
+M223;3,3;3,55;3,41;3,25;92;4;Teknik Informatika;Laki-laki;aktif;tidak_bekerja;0;10,06;SMP;kota;aktif;Tidak
+M224;3,53;3,58;3,69;3,32;95;2;Pendidikan Matematika;Laki-laki;aktif;paruh_waktu;23;13,45;S1;desa;aktif;Tidak
+M225;2,92;3,07;3,6;2,59;61;1;Teknik Sipil;Perempuan;aktif;tidak_bekerja;0;13,94;SMA;kota;tidak aktif;Tidak
+M226;3,18;2,8;3,01;3,64;86;3;Hukum;Laki-laki;sangat_aktif;paruh_waktu;36;3,53;SMP;kota;tidak aktif;Tidak
+M227;3,1;3,02;2,32;3,37;45;2;Hukum;Perempuan;sedang;tidak_bekerja;0;9,44;SMA;desa;tidak aktif;Tidak
+M228;3,32;4;2,85;3,11;62;3;Ilmu Komunikasi;Perempuan;sangat_aktif;penuh_waktu;21;9,61;SMA;kota;tidak aktif;Tidak
+M229;3,12;3,79;2,95;3,14;44;3;Manajemen;Laki-laki;aktif;penuh_waktu;31;3,24;SD;desa;tidak aktif;Ya
+M230;3,3;3,09;2,78;3,1;42;1;Hukum;Perempuan;sangat_aktif;paruh_waktu;21;6,07;S2;kota;aktif;Tidak
+M231;3,54;2,49;3,07;2,65;78;1;Teknik Elektro;Laki-laki;sedang;penuh_waktu;21;7,22;SD;kota;tidak aktif;Tidak
+M232;3,6;2,24;2,72;3,19;73;2;Teknik Sipil;Perempuan;aktif;paruh_waktu;17;14,45;SD;kota;aktif;Tidak
+M233;3,78;2,97;2,72;3,94;71;4;Sistem Informasi;Perempuan;aktif;paruh_waktu;18;11,85;S1;kota;aktif;Tidak
+M234;2,28;1,9;3,22;2,75;79;2;Sistem Informasi;Perempuan;sedang;penuh_waktu;16;2,72;S1;desa;aktif;Ya
+M235;2,49;3,35;3,12;2,72;51;3;Pendidikan Matematika;Laki-laki;pasif;penuh_waktu;40;12,84;SMA;desa;tidak aktif;Ya
+M236;2,36;3,44;3,33;2,95;85;0;Kedokteran;Laki-laki;aktif;tidak_bekerja;0;5,2;SMP;kota;tidak aktif;Tidak
+M237;3,92;2,46;2,24;2,65;90;2;Manajemen;Perempuan;aktif;tidak_bekerja;0;3,81;SMP;desa;aktif;Tidak
+M238;2,98;3,12;2,88;3,18;41;2;Kedokteran;Laki-laki;aktif;tidak_bekerja;0;12,25;SMA;kota;tidak aktif;Tidak
+M239;2,37;3,72;2,96;3,56;44;2;Hukum;Laki-laki;aktif;paruh_waktu;25;8,36;S1;kota;tidak aktif;Tidak
+M240;3,17;3,23;3,28;3,22;48;2;Teknik Sipil;Perempuan;sedang;tidak_bekerja;0;10,52;SMA;kota;aktif;Tidak
+M241;3,32;3,66;3,1;3,35;89;1;Pendidikan Matematika;Perempuan;aktif;penuh_waktu;11;12,64;SMA;desa;aktif;Tidak
+M242;2,96;3,72;2,66;3,9;50;1;Akuntansi;Laki-laki;aktif;paruh_waktu;21;14,26;SMA;desa;tidak aktif;Tidak
+M243;2,98;2,28;3,06;2,66;94;0;Hukum;Laki-laki;aktif;paruh_waktu;27;4,84;SMA;kota;aktif;Tidak
+M244;3,42;2,67;2,78;2,06;72;1;Manajemen;Perempuan;aktif;paruh_waktu;15;10,22;S1;desa;tidak aktif;Tidak
+M245;2,77;1,79;2,21;3,38;93;4;Sistem Informasi;Perempuan;sangat_aktif;penuh_waktu;12;1,64;SMA;desa;tidak aktif;Ya
+M246;3,39;3,21;2,52;2,98;81;1;Ilmu Komunikasi;Perempuan;sedang;tidak_bekerja;0;9,95;SMA;desa;aktif;Tidak
+M247;3;2,42;3,75;3,44;81;2;Teknik Sipil;Laki-laki;aktif;penuh_waktu;31;6,69;SMA;kota;tidak aktif;Tidak
+M248;2,89;3,01;3,1;1,98;50;3;Teknik Informatika;Perempuan;aktif;tidak_bekerja;0;5,76;SMP;desa;tidak aktif;Ya
+M249;2,88;2,66;2,5;2,86;86;2;Kedokteran;Laki-laki;pasif;tidak_bekerja;0;6,19;SMA;desa;aktif;Tidak
+M250;3,9;3,32;2,71;3,29;55;3;Pendidikan Matematika;Laki-laki;sangat_aktif;tidak_bekerja;0;2,97;SD;desa;aktif;Ya
+M251;3,7;3,46;3,03;2,68;95;4;Kedokteran;Laki-laki;aktif;penuh_waktu;38;3,24;SMA;desa;tidak aktif;Tidak
+M252;3,35;3,2;3,45;3,32;52;1;Teknik Sipil;Perempuan;aktif;paruh_waktu;25;13,31;SMA;kota;aktif;Tidak
+M253;3,52;2,73;3,66;3,1;100;3;Kedokteran;Laki-laki;aktif;penuh_waktu;16;9,17;SD;desa;aktif;Tidak
+M254;4;2,66;3,87;3,1;71;4;Teknik Sipil;Perempuan;sedang;paruh_waktu;25;5;SD;kota;aktif;Tidak
+M255;2,67;2,76;2,84;3,21;67;1;Kedokteran;Laki-laki;sedang;paruh_waktu;34;6,65;SD;kota;tidak aktif;Tidak
+M256;3,26;2,71;2,99;4;76;4;Teknik Elektro;Perempuan;sangat_aktif;paruh_waktu;12;6,41;SMA;desa;tidak aktif;Tidak
+M257;3,86;3,22;3,02;3,06;92;4;Akuntansi;Perempuan;sedang;tidak_bekerja;0;14,65;SMA;desa;aktif;Tidak
+M258;3,31;2,49;2,87;2,17;75;2;Hukum;Perempuan;sedang;tidak_bekerja;0;8,13;SMA;kota;aktif;Tidak
+M259;3,2;3,32;2,76;3,79;42;1;Hukum;Laki-laki;sedang;penuh_waktu;26;7,4;SMA;kota;tidak aktif;Tidak
+M260;2,39;2,27;3,11;3,52;60;4;Manajemen;Laki-laki;aktif;tidak_bekerja;0;9,63;S1;desa;aktif;Ya
+M261;3,84;2,77;3,54;2,98;72;4;Teknik Informatika;Laki-laki;aktif;paruh_waktu;19;7,65;SD;desa;aktif;Tidak
+M262;2,91;3,44;3,33;2,21;83;0;Teknik Informatika;Perempuan;pasif;paruh_waktu;35;13,58;S1;kota;aktif;Tidak
+M263;3,74;3,69;2,69;3,2;78;3;Manajemen;Laki-laki;aktif;paruh_waktu;34;9,1;SMP;kota;aktif;Tidak
+M264;3,25;3,13;2,72;2,66;77;3;Ilmu Komunikasi;Perempuan;sangat_aktif;paruh_waktu;29;11,84;SMA;kota;tidak aktif;Tidak
+M265;2,99;3,59;3,27;2,81;42;4;Hukum;Perempuan;pasif;tidak_bekerja;0;1,27;SMA;kota;aktif;Ya
+M266;3,39;1,58;3,57;2,13;66;1;Ilmu Komunikasi;Perempuan;aktif;paruh_waktu;39;7,6;S1;kota;tidak aktif;Tidak
+M267;2,82;2,44;2,35;3,58;85;1;Teknik Sipil;Laki-laki;aktif;paruh_waktu;31;7,7;SMA;kota;aktif;Tidak
+M268;2,77;3,17;2,98;3,24;69;4;Teknik Sipil;Perempuan;aktif;tidak_bekerja;0;11,81;S1;desa;tidak aktif;Tidak
+M269;3,04;2,36;3,5;2,75;79;3;Sistem Informasi;Laki-laki;sangat_aktif;tidak_bekerja;0;8,81;SMP;desa;aktif;Tidak
+M270;2,22;2,79;3,75;3,43;89;2;Kedokteran;Laki-laki;sedang;paruh_waktu;25;5,44;SMA;desa;aktif;Tidak
+M271;2,83;2,83;2,84;4;58;0;Teknik Informatika;Perempuan;aktif;paruh_waktu;38;14,72;S1;kota;tidak aktif;Tidak
+M272;3,19;3,22;3,52;3,12;58;0;Sistem Informasi;Laki-laki;aktif;paruh_waktu;21;13,94;SMA;desa;aktif;Tidak
+M273;2,87;2,9;2,96;2,98;53;1;Akuntansi;Laki-laki;sedang;tidak_bekerja;0;8,87;SMP;kota;tidak aktif;Tidak
+M274;3,36;3,03;3,37;2,96;79;4;Manajemen;Laki-laki;aktif;tidak_bekerja;0;13,67;SMP;kota;aktif;Tidak
+M275;3,04;2;3,46;3,17;43;0;Manajemen;Perempuan;aktif;paruh_waktu;13;10,54;SMP;kota;aktif;Tidak
+M276;3,5;1,55;4;2,93;66;3;Teknik Sipil;Perempuan;aktif;tidak_bekerja;0;14,49;SMA;kota;tidak aktif;Tidak
+M277;3,55;2,48;3,31;2,47;98;0;Hukum;Perempuan;sedang;tidak_bekerja;0;11,34;S1;kota;tidak aktif;Tidak
+M278;2,69;3,96;2,9;3,11;98;1;Ilmu Komunikasi;Laki-laki;aktif;penuh_waktu;39;13,87;S2;desa;aktif;Tidak
+M279;3,44;3,25;3,08;3,18;90;3;Teknik Informatika;Laki-laki;sangat_aktif;paruh_waktu;37;13,96;S1;kota;aktif;Tidak
+M280;4;2,97;3,1;3,53;59;4;Sistem Informasi;Perempuan;sedang;penuh_waktu;20;4,98;S2;desa;tidak aktif;Ya
+M281;3,55;3,59;3,32;2,43;96;1;Ilmu Komunikasi;Perempuan;sedang;tidak_bekerja;0;3,7;SMP;kota;tidak aktif;Tidak
+M282;3,82;2,43;3,15;2,62;86;3;Sistem Informasi;Perempuan;sedang;paruh_waktu;10;11,31;S1;kota;aktif;Tidak
+M283;2,97;3,16;3,16;3,21;51;4;Kedokteran;Laki-laki;sedang;penuh_waktu;36;6,99;SMA;desa;tidak aktif;Ya
+M284;3,81;3,23;2,88;3,48;82;0;Akuntansi;Perempuan;sangat_aktif;tidak_bekerja;0;5,53;SMP;desa;aktif;Tidak
+M285;3,59;2,39;3,3;3,35;64;1;Akuntansi;Perempuan;aktif;tidak_bekerja;0;5,61;SMA;kota;tidak aktif;Tidak
+M286;2,85;3,69;2,92;3,06;56;2;Ilmu Komunikasi;Laki-laki;sedang;tidak_bekerja;0;2,66;SMA;desa;aktif;Tidak
+M287;2,91;3,01;2,45;2,28;83;4;Ilmu Komunikasi;Laki-laki;pasif;penuh_waktu;34;5,35;SMP;desa;tidak aktif;Ya
+M288;3,8;2,58;2,5;1,92;63;4;Ilmu Komunikasi;Laki-laki;aktif;penuh_waktu;25;3,14;S1;desa;tidak aktif;Ya
+M289;2,68;2,34;3,82;3,5;66;4;Sistem Informasi;Laki-laki;pasif;paruh_waktu;35;10,3;SMP;kota;aktif;Ya
+M290;2,66;4;3,49;2,84;83;4;Kedokteran;Laki-laki;sedang;tidak_bekerja;0;7,25;S1;kota;tidak aktif;Tidak
+M291;1,75;4;2,31;2,18;98;4;Teknik Elektro;Laki-laki;sangat_aktif;penuh_waktu;38;8,08;SMA;kota;tidak aktif;Ya
+M292;3,51;4;3,69;3,28;50;2;Ilmu Komunikasi;Laki-laki;sedang;tidak_bekerja;0;10,52;S1;desa;tidak aktif;Tidak
+M293;3,3;3,43;3,38;3,14;45;4;Hukum;Perempuan;aktif;tidak_bekerja;0;2,85;SMA;kota;tidak aktif;Ya
+M294;3,05;2,97;2,62;2,86;75;3;Teknik Informatika;Laki-laki;sedang;tidak_bekerja;0;1,3;SMP;kota;aktif;Tidak
+M295;2,15;2,95;2,51;2,45;87;1;Teknik Informatika;Laki-laki;aktif;tidak_bekerja;0;5,82;SD;kota;tidak aktif;Tidak
+M296;3,09;3,7;3,46;2,21;99;0;Sistem Informasi;Laki-laki;pasif;tidak_bekerja;0;5,02;SMP;kota;tidak aktif;Tidak
+M297;2,51;3,47;2,51;2,89;89;3;Ilmu Komunikasi;Laki-laki;aktif;penuh_waktu;24;13,17;S2;desa;tidak aktif;Tidak
+M298;3,28;2,52;3,05;2,33;45;4;Teknik Sipil;Perempuan;sangat_aktif;penuh_waktu;13;3,5;SMA;kota;tidak aktif;Ya
+M299;2,7;3,16;2,2;3,22;86;1;Manajemen;Laki-laki;sedang;paruh_waktu;19;7,48;S1;desa;aktif;Tidak
+M300;2,99;3,28;3,11;3,68;74;3;Teknik Elektro;Perempuan;sedang;tidak_bekerja;0;5,85;SMP;kota;aktif;Tidak
+M301;3,06;2,79;3,06;3,27;42;3;Hukum;Perempuan;sedang;penuh_waktu;38;1,22;SMP;kota;tidak aktif;Ya
+M302;3,02;3,02;2,65;2,67;78;0;Kedokteran;Laki-laki;aktif;paruh_waktu;37;1,68;S1;desa;tidak aktif;Tidak
+M303;2,3;3,87;2,38;2,65;68;1;Teknik Sipil;Perempuan;aktif;paruh_waktu;34;1,79;SMA;desa;tidak aktif;Ya
+M304;2,64;3,45;2,85;3,62;54;4;Akuntansi;Laki-laki;aktif;paruh_waktu;31;12,46;SMP;kota;aktif;Tidak
+M305;2,66;3,14;2,58;4;82;4;Teknik Sipil;Perempuan;aktif;tidak_bekerja;0;1,85;S2;kota;aktif;Tidak
+M306;2,41;3,15;3,32;3,21;80;3;Sistem Informasi;Laki-laki;aktif;tidak_bekerja;0;5,82;SMA;desa;aktif;Tidak
+M307;2,91;2,94;3,02;2,93;90;4;Teknik Elektro;Perempuan;aktif;tidak_bekerja;0;3,09;SMA;desa;tidak aktif;Tidak
+M308;3,48;4;2,72;2,32;55;1;Pendidikan Matematika;Perempuan;aktif;paruh_waktu;35;7,48;SD;desa;tidak aktif;Tidak
+M309;2,96;4;2,6;3,82;66;4;Pendidikan Matematika;Laki-laki;aktif;tidak_bekerja;0;4,57;SMA;kota;tidak aktif;Tidak
+M310;3,84;2,72;3,28;3,81;99;3;Ilmu Komunikasi;Laki-laki;sedang;tidak_bekerja;0;11,14;SMP;desa;aktif;Tidak
+M311;2,81;2,9;2,71;2,49;64;4;Ilmu Komunikasi;Perempuan;sedang;penuh_waktu;16;12,27;SMA;kota;tidak aktif;Ya
+M312;2,68;2,39;3,02;2,62;70;1;Sistem Informasi;Perempuan;sedang;tidak_bekerja;0;14,4;SD;kota;aktif;Tidak
+M313;3,12;2,22;3,17;3,42;87;0;Kedokteran;Perempuan;sedang;paruh_waktu;39;4,4;SMA;kota;tidak aktif;Tidak
+M314;2;3,19;3,61;2,4;65;1;Ilmu Komunikasi;Laki-laki;aktif;paruh_waktu;22;7,53;SMA;desa;aktif;Tidak
+M315;3,84;3,21;2,65;2,97;56;2;Manajemen;Perempuan;aktif;tidak_bekerja;0;2,38;S2;desa;aktif;Tidak
+M316;3,28;3,04;3,27;2,54;88;2;Teknik Elektro;Laki-laki;pasif;tidak_bekerja;0;6,8;SMA;kota;aktif;Tidak
+M317;3,08;2,29;2,94;2,55;87;1;Sistem Informasi;Laki-laki;sangat_aktif;paruh_waktu;28;9,11;SMA;kota;aktif;Tidak
+M318;2,63;3,62;3,55;3,3;52;2;Teknik Informatika;Laki-laki;aktif;paruh_waktu;17;7,99;SMA;desa;tidak aktif;Tidak
+M319;2,45;2,84;3,61;3,07;56;3;Akuntansi;Perempuan;pasif;paruh_waktu;25;7,45;S1;desa;tidak aktif;Ya
+M320;4;3,2;3,1;2,85;50;1;Sistem Informasi;Perempuan;sedang;tidak_bekerja;0;13,84;SMA;kota;aktif;Tidak
+M321;3,07;2,92;3,35;3,48;73;0;Sistem Informasi;Perempuan;sedang;tidak_bekerja;0;12,45;SD;kota;aktif;Tidak
+M322;2,61;2,33;2,08;3,25;66;1;Pendidikan Matematika;Perempuan;sedang;tidak_bekerja;0;10,9;SD;desa;tidak aktif;Tidak
+M323;2,45;1,92;3,19;4;63;0;Hukum;Laki-laki;sedang;paruh_waktu;29;13,78;SMA;kota;tidak aktif;Tidak
+M324;3;3,42;3,04;2,95;40;4;Kedokteran;Laki-laki;aktif;tidak_bekerja;0;8,41;SMP;desa;aktif;Tidak
+M325;3,46;2,85;3,13;3,16;41;4;Hukum;Perempuan;sedang;paruh_waktu;35;14,16;SMP;kota;aktif;Tidak
+M326;2,67;3,5;2,91;2,62;73;1;Manajemen;Laki-laki;aktif;paruh_waktu;18;12,41;SMP;desa;aktif;Tidak
+M327;3,27;2,55;3,01;3;45;2;Teknik Informatika;Laki-laki;pasif;tidak_bekerja;0;4,4;SMA;desa;aktif;Tidak
+M328;3,54;3,24;2,99;3,41;83;0;Pendidikan Matematika;Perempuan;sedang;penuh_waktu;34;1,44;SMA;desa;tidak aktif;Tidak
+M329;3,7;3,28;3,01;2,34;75;3;Teknik Informatika;Laki-laki;sangat_aktif;tidak_bekerja;0;3,4;SMA;desa;aktif;Tidak
+M330;2,47;2,85;2,7;2,91;81;2;Manajemen;Laki-laki;aktif;penuh_waktu;13;13,53;S2;kota;aktif;Tidak
+M331;3,03;3,26;2,96;3,24;53;4;Hukum;Laki-laki;aktif;tidak_bekerja;0;2,04;S2;kota;tidak aktif;Ya
+M332;3,03;2,01;2,53;2,93;51;2;Sistem Informasi;Laki-laki;sangat_aktif;tidak_bekerja;0;3,02;S1;desa;aktif;Tidak
+M333;2,4;3,3;3,77;3,61;99;0;Ilmu Komunikasi;Perempuan;aktif;paruh_waktu;28;12,69;SMA;desa;tidak aktif;Tidak
+M334;2,89;3,75;3,07;2,83;64;1;Ilmu Komunikasi;Laki-laki;sedang;paruh_waktu;12;8,01;S2;kota;tidak aktif;Tidak
+M335;2,69;2,85;2,81;3,09;46;3;Teknik Sipil;Perempuan;aktif;tidak_bekerja;0;9,47;SMA;desa;tidak aktif;Tidak
+M336;3,08;3;3,22;3,6;89;2;Akuntansi;Perempuan;sangat_aktif;tidak_bekerja;0;14,9;SMA;desa;aktif;Tidak
+M337;3,47;2,26;1,72;3,47;75;3;Kedokteran;Laki-laki;aktif;paruh_waktu;31;6,32;S1;desa;tidak aktif;Ya
+M338;2,32;2,89;2,41;2,1;91;1;Manajemen;Perempuan;sedang;tidak_bekerja;0;3,16;S1;kota;aktif;Ya
+M339;3,27;3,38;2,71;1,7;87;3;Akuntansi;Perempuan;aktif;tidak_bekerja;0;1,07;SMA;desa;aktif;Ya
+M340;2,73;3,2;2,26;3,09;88;2;Kedokteran;Perempuan;sangat_aktif;tidak_bekerja;0;7,03;SMA;desa;tidak aktif;Tidak
+M341;2,99;3,29;3,06;2,51;46;0;Akuntansi;Laki-laki;sangat_aktif;paruh_waktu;29;9,37;SMA;desa;aktif;Tidak
+M342;3,6;2,92;2,99;2,53;40;2;Hukum;Perempuan;aktif;paruh_waktu;33;13,62;S2;kota;aktif;Tidak
+M343;2,78;2,56;2,91;3,86;76;4;Kedokteran;Laki-laki;sangat_aktif;tidak_bekerja;0;2,94;SMA;desa;aktif;Tidak
+M344;2,31;2,19;3,74;2,9;49;0;Hukum;Perempuan;sangat_aktif;tidak_bekerja;0;5,2;S1;desa;aktif;Ya
+M345;2,67;3,52;2,7;3,91;56;1;Sistem Informasi;Laki-laki;sedang;tidak_bekerja;0;9,63;SMA;kota;tidak aktif;Tidak
+M346;3,34;2,76;4;2,7;59;0;Pendidikan Matematika;Perempuan;pasif;tidak_bekerja;0;9,68;S1;desa;aktif;Tidak
+M347;3,37;3,15;3,65;3,78;68;2;Hukum;Perempuan;aktif;penuh_waktu;30;14,64;SMP;desa;aktif;Tidak
+M348;3,02;2,62;3,23;2,66;78;1;Ilmu Komunikasi;Perempuan;aktif;tidak_bekerja;0;6,58;SMA;desa;aktif;Tidak
+M349;4;3,07;2,82;3,09;76;1;Akuntansi;Laki-laki;aktif;tidak_bekerja;0;12;SMA;kota;tidak aktif;Tidak
+M350;2,33;2,51;3,6;2,67;77;4;Teknik Sipil;Perempuan;sangat_aktif;paruh_waktu;10;14,34;SMA;kota;tidak aktif;Tidak
+M351;2,48;3,27;3,59;3,36;68;2;Teknik Elektro;Perempuan;sedang;tidak_bekerja;0;12,87;S1;desa;aktif;Tidak
+M352;3,5;2,62;2,29;3,75;48;2;Kedokteran;Laki-laki;aktif;paruh_waktu;32;6,92;SMA;desa;tidak aktif;Tidak
+M353;2,84;2,87;3,66;3,28;78;3;Manajemen;Laki-laki;aktif;paruh_waktu;39;13,89;SMA;kota;tidak aktif;Tidak
+M354;3,23;4;2,68;3,46;90;2;Teknik Sipil;Perempuan;sedang;penuh_waktu;29;9,93;SD;kota;tidak aktif;Tidak
+M355;3,03;3,13;3,76;3,25;82;2;Ilmu Komunikasi;Perempuan;sangat_aktif;paruh_waktu;28;14,77;SMA;desa;aktif;Tidak
+M356;3,27;3,54;2,82;2,58;88;2;Hukum;Laki-laki;pasif;tidak_bekerja;0;1,15;SMP;kota;aktif;Tidak
+M357;2,48;2,02;4;2,45;68;2;Pendidikan Matematika;Perempuan;aktif;paruh_waktu;28;10,67;SMP;kota;aktif;Ya
+M358;2,89;2,86;3,15;3,41;70;0;Sistem Informasi;Perempuan;aktif;penuh_waktu;12;2,62;S2;kota;aktif;Tidak
+M359;3,43;2,71;2,92;3,14;62;2;Teknik Elektro;Laki-laki;aktif;paruh_waktu;26;7,76;SMA;desa;aktif;Tidak
+M360;2,88;3,8;3,25;3,37;86;3;Teknik Informatika;Laki-laki;aktif;tidak_bekerja;0;12,34;SMP;desa;tidak aktif;Tidak
+M361;3,33;3,59;3,09;2,35;81;0;Teknik Sipil;Laki-laki;sedang;tidak_bekerja;0;14,77;SMP;kota;tidak aktif;Tidak
+M362;3,2;2,67;2,74;3,29;75;1;Pendidikan Matematika;Laki-laki;aktif;tidak_bekerja;0;7,47;S1;kota;tidak aktif;Tidak
+M363;3,62;3,01;3,15;3,85;51;3;Teknik Informatika;Laki-laki;aktif;paruh_waktu;38;3,76;SMA;desa;tidak aktif;Tidak
+M364;3,12;4;3,28;2,12;40;1;Teknik Elektro;Perempuan;aktif;paruh_waktu;35;12,14;SMA;kota;aktif;Tidak
+M365;3,38;3,19;3,64;3,34;63;2;Manajemen;Perempuan;sangat_aktif;tidak_bekerja;0;10,39;SMA;desa;tidak aktif;Tidak
+M366;2,93;2,39;2,9;2,57;78;3;Manajemen;Perempuan;sedang;paruh_waktu;21;5,93;SMA;kota;aktif;Tidak
+M367;2,71;3,29;3,83;3,2;92;2;Akuntansi;Laki-laki;pasif;paruh_waktu;31;2,88;SMP;desa;tidak aktif;Tidak
+M368;2,4;3,22;3,6;2,7;47;1;Teknik Elektro;Laki-laki;aktif;tidak_bekerja;0;6,44;SMA;desa;aktif;Tidak
+M369;2,93;3,01;2,61;3,32;67;1;Teknik Elektro;Perempuan;aktif;paruh_waktu;39;10,03;S2;kota;tidak aktif;Tidak
+M370;2,94;3,21;2,56;2,78;71;2;Teknik Informatika;Perempuan;sangat_aktif;tidak_bekerja;0;7,31;SD;desa;aktif;Tidak
+M371;3,36;2,81;3,86;2,8;100;0;Pendidikan Matematika;Laki-laki;aktif;tidak_bekerja;0;6,38;SMA;desa;aktif;Tidak
+M372;3,11;3,47;2,29;2,12;66;3;Kedokteran;Laki-laki;aktif;penuh_waktu;25;3,34;SMA;kota;tidak aktif;Ya
+M373;2,24;3,63;2,72;4;58;0;Teknik Informatika;Laki-laki;aktif;paruh_waktu;15;11,93;SMA;desa;tidak aktif;Tidak
+M374;2,72;3,09;3,77;4;75;4;Sistem Informasi;Perempuan;sangat_aktif;tidak_bekerja;0;11,85;S1;desa;tidak aktif;Tidak
+M375;4;3,6;3,51;3,3;74;0;Manajemen;Perempuan;sedang;tidak_bekerja;0;4,06;SMA;kota;aktif;Tidak
+M376;3,39;2,72;2,59;3;59;0;Manajemen;Perempuan;aktif;tidak_bekerja;0;12,43;SMA;kota;aktif;Tidak
+M377;2,91;2,77;3,35;3,48;89;1;Akuntansi;Laki-laki;aktif;paruh_waktu;32;5,91;S1;desa;aktif;Tidak
+M378;3,04;3,74;2,43;2,9;50;4;Sistem Informasi;Laki-laki;sangat_aktif;tidak_bekerja;0;3,9;SD;desa;aktif;Ya
+M379;2,64;2,07;2,96;2,94;74;2;Manajemen;Laki-laki;aktif;tidak_bekerja;0;14,71;SMP;desa;aktif;Tidak
+M380;3,76;3,32;2,49;3,93;100;4;Teknik Informatika;Perempuan;pasif;paruh_waktu;13;2,9;S1;desa;aktif;Ya
+M381;3,61;3,29;2,89;2,52;98;0;Sistem Informasi;Laki-laki;pasif;penuh_waktu;14;10,82;SMP;kota;tidak aktif;Tidak
+M382;2,81;3,54;3,94;3,77;85;2;Teknik Informatika;Perempuan;sedang;paruh_waktu;31;6,5;SMP;desa;tidak aktif;Tidak
+M383;2,76;2,44;3,07;2,12;80;3;Kedokteran;Laki-laki;aktif;tidak_bekerja;0;12,12;S1;desa;aktif;Ya
+M384;3,16;2,93;2,77;2,2;72;2;Kedokteran;Laki-laki;sedang;penuh_waktu;24;14,3;SMA;kota;aktif;Tidak
+M385;3,26;2,73;2,42;1,56;95;0;Manajemen;Perempuan;sedang;tidak_bekerja;0;10,3;SMA;kota;tidak aktif;Tidak
+M386;2,99;3,89;3,83;2,77;90;4;Manajemen;Perempuan;aktif;penuh_waktu;36;3,97;SMP;desa;tidak aktif;Tidak
+M387;2,7;3,23;2,5;3,15;61;4;Pendidikan Matematika;Perempuan;aktif;paruh_waktu;25;12,04;S1;kota;tidak aktif;Tidak
+M388;3,38;3,61;2,95;2,9;42;0;Kedokteran;Laki-laki;sedang;penuh_waktu;10;2,74;S1;desa;tidak aktif;Ya
+M389;2,56;2,59;2,89;3,18;69;0;Teknik Sipil;Perempuan;pasif;tidak_bekerja;0;14,94;S2;desa;aktif;Tidak
+M390;3,46;2,6;3,75;2,86;50;2;Teknik Sipil;Perempuan;sangat_aktif;tidak_bekerja;0;2,15;SMA;kota;aktif;Tidak
+M391;2,99;2,63;1,79;3,44;43;3;Akuntansi;Perempuan;sedang;paruh_waktu;34;4,28;SMA;kota;tidak aktif;Ya
+M392;3,37;2,86;3,03;3,26;40;1;Kedokteran;Laki-laki;aktif;tidak_bekerja;0;4,17;SMA;kota;aktif;Tidak
+M393;2,22;2,74;3,4;2,37;40;2;Teknik Informatika;Perempuan;sedang;penuh_waktu;23;10,72;SMA;kota;aktif;Ya
+M394;3,15;2,32;3,23;2,98;64;0;Teknik Informatika;Laki-laki;sedang;tidak_bekerja;0;5,39;S1;kota;aktif;Tidak
+M395;2,19;3,58;2,63;2,59;64;1;Ilmu Komunikasi;Laki-laki;sedang;paruh_waktu;12;8,43;SD;kota;tidak aktif;Tidak
+M396;3,1;3,57;2,49;3,03;68;2;Sistem Informasi;Perempuan;sedang;paruh_waktu;14;13,88;SMA;desa;tidak aktif;Tidak
+M397;3,21;3,35;3,09;2,82;95;1;Hukum;Perempuan;sangat_aktif;tidak_bekerja;0;11,53;SMA;desa;aktif;Tidak
+M398;2,59;3,04;2,46;1,54;62;3;Teknik Sipil;Laki-laki;aktif;tidak_bekerja;0;4,88;SD;desa;tidak aktif;Ya
+M399;3,22;3,45;1,82;2,5;89;0;Manajemen;Laki-laki;sedang;paruh_waktu;19;3,88;SMA;kota;tidak aktif;Tidak
+M400;3,31;4;3,01;2,64;87;3;Akuntansi;Laki-laki;aktif;tidak_bekerja;0;13,57;S2;desa;tidak aktif;Tidak
+M401;2,91;3,69;2,68;2,6;64;0;Hukum;Perempuan;aktif;paruh_waktu;12;8,4;S2;desa;aktif;Tidak
+M402;2,76;2,52;3,06;3,81;99;2;Teknik Elektro;Laki-laki;sangat_aktif;penuh_waktu;28;6,89;SMA;kota;tidak aktif;Tidak
+M403;3,16;2,87;2,85;2,22;88;3;Akuntansi;Laki-laki;pasif;paruh_waktu;10;9,22;SD;kota;aktif;Ya
+M404;3,44;2,96;2,91;4;42;0;Teknik Elektro;Perempuan;pasif;tidak_bekerja;0;5,01;S1;desa;aktif;Tidak
+M405;3,15;2,62;2,79;3,57;67;3;Kedokteran;Perempuan;sangat_aktif;paruh_waktu;29;3,14;SD;kota;aktif;Tidak
+M406;3,06;2,28;3,46;2,67;72;1;Teknik Elektro;Perempuan;pasif;tidak_bekerja;0;5,57;SMA;kota;aktif;Tidak
+M407;3,94;3,54;2,78;3,64;59;3;Teknik Elektro;Perempuan;sedang;penuh_waktu;11;4,42;S2;kota;aktif;Ya
+M408;3,03;3,43;3,24;2,58;69;4;Pendidikan Matematika;Perempuan;sedang;tidak_bekerja;0;11,38;S1;kota;tidak aktif;Tidak
+M409;2,68;3,51;2,83;2,8;40;1;Pendidikan Matematika;Laki-laki;sedang;tidak_bekerja;0;14,34;SMA;desa;aktif;Tidak
+M410;2,52;3,21;4;2,47;50;2;Pendidikan Matematika;Laki-laki;sangat_aktif;paruh_waktu;18;11,26;SMP;kota;tidak aktif;Tidak
+M411;3,01;3,71;2,96;3,23;61;3;Kedokteran;Perempuan;aktif;tidak_bekerja;0;10,97;SMA;kota;tidak aktif;Tidak
+M412;2,47;3,21;2,91;3,49;71;3;Hukum;Laki-laki;aktif;tidak_bekerja;0;13,03;SMP;kota;aktif;Tidak
+M413;3,59;4;3,29;3,16;56;0;Akuntansi;Laki-laki;sedang;paruh_waktu;13;4,2;SMA;kota;tidak aktif;Tidak
+M414;3,1;2,82;3,17;2,85;94;0;Akuntansi;Laki-laki;aktif;tidak_bekerja;0;6,36;SMP;kota;aktif;Tidak
+M415;3,08;3,66;2,5;3,57;75;3;Manajemen;Laki-laki;aktif;tidak_bekerja;0;13,82;SMA;kota;tidak aktif;Tidak
+M416;3,66;2,94;1,94;2,7;76;2;Pendidikan Matematika;Laki-laki;sangat_aktif;paruh_waktu;11;3,51;S1;kota;tidak aktif;Tidak
+M417;3,65;2,99;2,5;2,75;65;0;Kedokteran;Perempuan;sedang;penuh_waktu;34;12,83;SMA;desa;tidak aktif;Tidak
+M418;3,42;3,27;2,88;2,82;40;2;Manajemen;Laki-laki;aktif;paruh_waktu;19;11,35;SMP;desa;tidak aktif;Tidak
+M419;2,8;2,54;3,81;2,84;77;3;Sistem Informasi;Perempuan;pasif;paruh_waktu;33;13,61;S1;kota;aktif;Tidak
+M420;3,61;3,76;3,5;2,78;49;0;Manajemen;Perempuan;pasif;tidak_bekerja;0;8,58;SMA;kota;aktif;Tidak
+M421;3,2;2,99;2,55;3,16;100;2;Hukum;Perempuan;sangat_aktif;paruh_waktu;37;11,33;SMA;kota;tidak aktif;Tidak
+M422;2,41;3,59;2,77;3,1;73;1;Teknik Sipil;Laki-laki;aktif;penuh_waktu;14;10,96;SD;kota;aktif;Tidak
+M423;3,14;2,87;3,29;2,76;97;4;Teknik Elektro;Laki-laki;aktif;penuh_waktu;24;14,64;SD;kota;aktif;Tidak
+M424;3,44;2,33;3,06;3,97;72;1;Pendidikan Matematika;Perempuan;sedang;tidak_bekerja;0;9,29;SD;kota;tidak aktif;Tidak
+M425;2,5;2,66;3,26;3,09;55;2;Teknik Sipil;Laki-laki;aktif;tidak_bekerja;0;12,21;S1;desa;tidak aktif;Tidak
+M426;3,18;3,24;3,32;3,55;60;3;Manajemen;Laki-laki;aktif;tidak_bekerja;0;3,84;S1;kota;aktif;Tidak
+M427;3,2;2,88;3,34;3,95;49;0;Kedokteran;Laki-laki;sangat_aktif;tidak_bekerja;0;6,69;SMA;kota;tidak aktif;Tidak
+M428;2,93;2,51;3,55;2,94;68;2;Teknik Elektro;Laki-laki;aktif;penuh_waktu;12;3,21;SMA;kota;tidak aktif;Tidak
+M429;1,91;3,42;2,73;2,95;53;2;Akuntansi;Perempuan;sangat_aktif;paruh_waktu;40;5,98;SMA;desa;tidak aktif;Tidak
+M430;3,17;3,1;3,35;2,78;56;1;Teknik Informatika;Perempuan;sangat_aktif;tidak_bekerja;0;7,33;S1;kota;aktif;Tidak
+M431;3,26;2,87;3,37;3,31;46;3;Teknik Elektro;Laki-laki;sangat_aktif;paruh_waktu;13;1,17;S1;kota;tidak aktif;Ya
+M432;2,53;3,54;2,73;3,4;48;1;Hukum;Laki-laki;sedang;tidak_bekerja;0;9,82;SMA;desa;tidak aktif;Tidak
+M433;3,18;3,92;2,89;2,83;98;0;Hukum;Laki-laki;sangat_aktif;tidak_bekerja;0;13,63;SMA;kota;aktif;Tidak
+M434;2,99;2,85;3,4;2,19;45;2;Manajemen;Perempuan;sangat_aktif;penuh_waktu;11;3,35;SMA;desa;tidak aktif;Ya
+M435;2,47;2,47;3,48;3,86;71;0;Sistem Informasi;Perempuan;aktif;tidak_bekerja;0;5,96;S2;desa;aktif;Tidak
+M436;2,95;2,92;3,04;3,58;57;3;Hukum;Laki-laki;sedang;tidak_bekerja;0;9,67;SMP;desa;tidak aktif;Tidak
+M437;2,54;3,12;3,49;3,25;71;3;Hukum;Perempuan;sedang;tidak_bekerja;0;2,23;SMA;desa;aktif;Tidak
+M438;3,09;3,5;1,65;3,34;52;4;Kedokteran;Laki-laki;aktif;penuh_waktu;27;12,13;S2;desa;aktif;Ya
+M439;2,67;2,08;3,26;3,69;70;4;Manajemen;Laki-laki;sedang;tidak_bekerja;0;8,92;SMA;desa;aktif;Tidak
+M440;2,93;3,48;3,81;3,66;51;0;Teknik Elektro;Perempuan;aktif;tidak_bekerja;0;13,54;S1;kota;aktif;Tidak
+M441;3,82;3,37;3,04;2,2;91;3;Sistem Informasi;Perempuan;aktif;paruh_waktu;17;14,64;SMP;kota;tidak aktif;Tidak
+M442;2,88;2,58;4;2,91;57;4;Teknik Sipil;Laki-laki;sedang;penuh_waktu;11;11,7;S2;desa;tidak aktif;Ya
+M443;3,06;3,28;3,02;3,85;62;1;Teknik Informatika;Laki-laki;sangat_aktif;paruh_waktu;35;11,33;SMA;kota;tidak aktif;Tidak
+M444;2,69;3,1;2,63;2,34;85;2;Pendidikan Matematika;Laki-laki;pasif;paruh_waktu;28;14,28;S1;desa;aktif;Tidak
+M445;2,69;2,98;2,79;2,65;74;2;Akuntansi;Laki-laki;sangat_aktif;tidak_bekerja;0;1,79;SMA;kota;tidak aktif;Tidak
+M446;2,3;2,96;2,25;3,38;73;3;Hukum;Perempuan;sangat_aktif;penuh_waktu;16;12,29;SMA;kota;aktif;Ya
+M447;3,04;2,27;2,85;2,62;98;2;Manajemen;Perempuan;sangat_aktif;tidak_bekerja;0;10,87;SMP;kota;aktif;Tidak
+M448;3,16;3,67;2,06;3,06;94;4;Pendidikan Matematika;Laki-laki;sedang;penuh_waktu;21;10,86;SMA;kota;tidak aktif;Ya
+M449;2,92;3,34;3,11;2,62;61;2;Akuntansi;Laki-laki;aktif;penuh_waktu;33;14,28;S1;desa;tidak aktif;Tidak
+M450;2,84;2,6;3,54;3,01;81;2;Akuntansi;Perempuan;sangat_aktif;penuh_waktu;32;13,45;SMA;desa;tidak aktif;Tidak
+M451;3,95;2,97;2,65;2,24;54;4;Teknik Sipil;Laki-laki;sedang;tidak_bekerja;0;11,28;SMP;kota;tidak aktif;Ya
+M452;2,1;2,21;3,13;3,25;86;0;Teknik Sipil;Perempuan;pasif;penuh_waktu;22;12,91;S1;kota;tidak aktif;Ya
+M453;2,21;3,45;2,76;3,07;51;4;Teknik Sipil;Perempuan;aktif;penuh_waktu;29;4,09;SMA;desa;aktif;Ya
+M454;3,81;3,45;2,87;2,55;49;2;Ilmu Komunikasi;Perempuan;sedang;tidak_bekerja;0;14,75;SMP;kota;tidak aktif;Tidak
+M455;1,92;2,64;2,89;2,51;92;2;Ilmu Komunikasi;Perempuan;aktif;tidak_bekerja;0;4,49;SD;desa;aktif;Tidak
+M456;2,93;3,04;2,89;2,67;90;0;Akuntansi;Laki-laki;sedang;tidak_bekerja;0;7,14;SMA;kota;tidak aktif;Tidak
+M457;3,08;3,22;2,45;3,71;96;3;Teknik Sipil;Perempuan;aktif;tidak_bekerja;0;8,64;SMP;desa;tidak aktif;Tidak
+M458;2,95;3,01;3,35;3,12;90;4;Kedokteran;Perempuan;sedang;paruh_waktu;15;7,32;S1;kota;aktif;Tidak
+M459;3,48;3,14;2,69;3,18;58;0;Hukum;Laki-laki;aktif;penuh_waktu;12;5,79;S1;kota;aktif;Tidak
+M460;2,43;3,05;2,98;2,9;86;0;Pendidikan Matematika;Laki-laki;aktif;penuh_waktu;12;5,73;S2;desa;tidak aktif;Tidak
+M461;2,94;2,06;2,73;3,05;85;0;Pendidikan Matematika;Perempuan;aktif;paruh_waktu;29;13,46;SMP;kota;tidak aktif;Tidak
+M462;3,08;2,49;3,63;2,57;61;1;Ilmu Komunikasi;Perempuan;pasif;tidak_bekerja;0;8,76;S2;desa;aktif;Tidak
+M463;3,48;3,21;2,68;3,89;82;2;Akuntansi;Perempuan;aktif;tidak_bekerja;0;6,5;SMA;desa;tidak aktif;Tidak
+M464;2,4;3,46;3,5;2,66;49;0;Manajemen;Perempuan;aktif;tidak_bekerja;0;5,12;SMA;desa;tidak aktif;Tidak
+M465;3,7;2,87;3,14;3,13;52;0;Teknik Elektro;Perempuan;sangat_aktif;tidak_bekerja;0;5,09;SD;kota;aktif;Tidak
+M466;2,93;3,41;3,4;2,13;59;3;Teknik Elektro;Perempuan;aktif;penuh_waktu;18;2,28;SMA;kota;tidak aktif;Ya
+M467;3,65;2,17;3,52;3,56;63;3;Ilmu Komunikasi;Laki-laki;aktif;tidak_bekerja;0;4,69;SMA;kota;tidak aktif;Tidak
+M468;2,45;2,79;2,45;2,89;93;2;Manajemen;Laki-laki;aktif;tidak_bekerja;0;10,75;SD;desa;aktif;Tidak
+M469;2,85;3,39;3,66;3,7;91;4;Ilmu Komunikasi;Laki-laki;aktif;paruh_waktu;17;8,75;S1;desa;tidak aktif;Tidak
+M470;2,72;2,9;2,16;2,6;74;3;Teknik Elektro;Laki-laki;aktif;tidak_bekerja;0;5,18;SMA;kota;aktif;Tidak
+M471;3,48;3,81;2,38;2,7;72;4;Manajemen;Perempuan;pasif;penuh_waktu;31;14,76;SMP;desa;aktif;Ya
+M472;2,99;3,14;2,6;3,21;51;1;Teknik Sipil;Perempuan;pasif;penuh_waktu;14;1,6;SD;desa;tidak aktif;Ya
+M473;2,76;2,99;3,27;3;52;1;Akuntansi;Laki-laki;sedang;tidak_bekerja;0;13,75;S2;kota;aktif;Tidak
+M474;2,78;2,95;2,96;2,81;45;3;Pendidikan Matematika;Laki-laki;aktif;paruh_waktu;37;4,87;SMA;kota;tidak aktif;Tidak
+M475;2,87;3,8;3,28;2,85;90;4;Kedokteran;Laki-laki;aktif;paruh_waktu;13;6,8;SMP;kota;tidak aktif;Tidak
+M476;3,35;2,83;3,59;3,18;99;0;Sistem Informasi;Perempuan;aktif;tidak_bekerja;0;5,01;SMA;desa;tidak aktif;Tidak
+M477;2,95;3,22;2,21;2,44;96;3;Akuntansi;Perempuan;aktif;paruh_waktu;28;9,53;SD;desa;tidak aktif;Ya
+M478;2,4;3,07;3,87;4;65;1;Teknik Sipil;Perempuan;sedang;paruh_waktu;22;1,54;S1;desa;tidak aktif;Tidak
+M479;3,32;3,25;2,1;2,73;84;1;Teknik Elektro;Perempuan;sangat_aktif;tidak_bekerja;0;4,76;SMA;desa;tidak aktif;Tidak
+M480;2,61;2,69;2,92;2,76;92;2;Teknik Sipil;Laki-laki;aktif;penuh_waktu;37;10,75;SD;kota;tidak aktif;Tidak
+M481;2,01;3,37;2,46;3,12;48;2;Ilmu Komunikasi;Laki-laki;pasif;tidak_bekerja;0;12,56;SMP;desa;tidak aktif;Ya
+M482;4;2,54;1,73;2,86;78;0;Manajemen;Laki-laki;sangat_aktif;tidak_bekerja;0;12,54;S1;desa;tidak aktif;Tidak
+M483;3,55;3,98;2,39;3,25;92;0;Pendidikan Matematika;Perempuan;aktif;tidak_bekerja;0;5,36;SMA;kota;aktif;Tidak
+M484;2,77;2,95;4;2,25;89;4;Hukum;Laki-laki;sedang;tidak_bekerja;0;3,7;S1;kota;aktif;Tidak
+M485;3,13;3,23;3,54;3,05;55;0;Ilmu Komunikasi;Perempuan;aktif;penuh_waktu;32;3,79;SMA;desa;aktif;Tidak
+M486;3,15;2,8;3,13;2,83;72;3;Akuntansi;Laki-laki;sedang;tidak_bekerja;0;1,43;SMA;desa;aktif;Tidak
+M487;3,31;2,82;3,19;2,99;51;3;Ilmu Komunikasi;Perempuan;aktif;tidak_bekerja;0;3,29;S1;kota;aktif;Tidak
+M488;3,56;2,97;2,11;3,63;58;0;Akuntansi;Perempuan;aktif;tidak_bekerja;0;9,01;S2;kota;tidak aktif;Tidak
+M489;2,55;2,67;2,7;3,69;81;1;Hukum;Perempuan;sedang;tidak_bekerja;0;6,73;SD;kota;tidak aktif;Tidak
+M490;1,93;4;3,53;3,11;70;1;Teknik Informatika;Laki-laki;sedang;paruh_waktu;10;4,13;SMA;desa;tidak aktif;Tidak
+M491;2,97;3,14;3,26;3,32;85;2;Pendidikan Matematika;Laki-laki;aktif;tidak_bekerja;0;5,88;SMP;desa;aktif;Tidak
+M492;3,28;3,04;2,9;2,92;59;4;Kedokteran;Perempuan;sedang;tidak_bekerja;0;2,43;SMA;desa;tidak aktif;Ya
+M493;2,9;3,57;3,3;1,53;75;4;Kedokteran;Laki-laki;sedang;tidak_bekerja;0;2,51;SD;desa;aktif;Ya
+M494;3,33;3,1;2,99;2,81;80;2;Sistem Informasi;Laki-laki;sedang;tidak_bekerja;0;10,96;S1;desa;aktif;Tidak
+M495;3,56;3,47;2,61;3,2;52;1;Teknik Sipil;Laki-laki;aktif;tidak_bekerja;0;1,79;S1;desa;tidak aktif;Tidak
+M496;2,51;2,31;2,69;3,43;82;2;Teknik Informatika;Perempuan;sedang;paruh_waktu;30;7,96;SMP;desa;tidak aktif;Tidak
+M497;3,48;3,26;3,36;3,26;65;3;Kedokteran;Laki-laki;sedang;paruh_waktu;28;12,42;SMA;kota;aktif;Tidak
+M498;2,68;3,22;3,4;3,38;83;4;Ilmu Komunikasi;Perempuan;sedang;tidak_bekerja;0;14,17;SMA;desa;tidak aktif;Tidak
+M499;3,59;3,35;3,18;3,54;94;1;Teknik Sipil;Perempuan;sedang;penuh_waktu;15;5,11;SMA;desa;aktif;Tidak
+M500;2,99;2,56;2,92;2,63;86;4;Teknik Informatika;Laki-laki;sedang;tidak_bekerja;0;10,52;SMA;kota;tidak aktif;Tidak
+M100;2,59;2,89;3,52;2,63;89;3;Sistem Informasi;Perempuan;kurang_aktif;tidak_bekerja;20;8,14;SD;desa;aktif;Ya
+M101;2,17;3,25;3,82;2,79;93;3;Teknik Elektro;Laki-laki;aktif;penuh_waktu;10;5,58;D3;desa;tidak aktif;Tidak
+M102;3,39;3,6;3,79;3,4;90;4;Hukum;Laki-laki;kurang_aktif;paruh_waktu;20;16,03;SMP;kota;tidak aktif;Ya
+M103;3,31;3,36;3,1;2,54;57;4;Hukum;Perempuan;kurang_aktif;penuh_waktu;10;11,18;SD;desa;tidak aktif;Tidak
+M104;2,93;3,43;3,53;2,7;56;2;Sistem Informasi;Perempuan;kurang_aktif;tidak_bekerja;10;9,77;S2;kota;tidak aktif;Ya
+M105;3,1;3,95;3,92;3,83;100;4;Hukum;Perempuan;sangat_aktif;penuh_waktu;20;8,41;SD;kota;aktif;Ya
+M106;2,79;3,34;3,15;2,11;57;3;Teknik Elektro;Laki-laki;aktif;tidak_bekerja;0;13,21;S2;kota;tidak aktif;Tidak
+M107;3,76;3,83;2,02;3,26;52;3;Teknik Elektro;Perempuan;kurang_aktif;paruh_waktu;0;7,8;D3;kota;aktif;Tidak
+M108;3,17;2,73;2,96;3,24;76;5;Teknik Elektro;Perempuan;kurang_aktif;paruh_waktu;30;8,79;SMP;desa;aktif;Ya
+M109;2,71;2,81;2,87;3,68;51;3;Sistem Informasi;Perempuan;kurang_aktif;paruh_waktu;10;8,27;S2;desa;aktif;Ya
+M110;2,05;2,69;2,02;3,58;83;0;Ilmu Komunikasi;Perempuan;aktif;paruh_waktu;30;10,11;D3;desa;tidak aktif;Tidak
+M111;3,72;3,1;2,1;3,05;86;2;Hukum;Laki-laki;kurang_aktif;tidak_bekerja;10;15,81;S1;kota;aktif;Ya
+M112;2,53;3,7;2,29;3,14;56;1;Ilmu Komunikasi;Perempuan;sangat_aktif;penuh_waktu;10;1,15;SMA;kota;tidak aktif;Tidak
+M113;3,91;2,18;2,49;2,79;72;3;Sistem Informasi;Laki-laki;aktif;paruh_waktu;0;14,41;S2;desa;aktif;Tidak
+M114;2,17;2,54;2,11;3,93;65;1;Teknik Elektro;Perempuan;aktif;paruh_waktu;30;7,36;D3;desa;aktif;Ya
+M115;3,17;2,83;3,38;2,62;73;2;Ilmu Komunikasi;Perempuan;sangat_aktif;paruh_waktu;10;3,91;S2;kota;aktif;Ya
+M116;4;2,88;2,6;2,89;50;3;Sistem Informasi;Perempuan;aktif;tidak_bekerja;0;18,09;SD;kota;aktif;Tidak
+M117;3,78;3,14;2,94;3,03;69;4;Hukum;Perempuan;kurang_aktif;tidak_bekerja;20;3,26;SMP;kota;aktif;Tidak
+M118;2,09;3,66;2,6;3,97;83;5;Hukum;Laki-laki;aktif;paruh_waktu;20;1,89;S2;desa;tidak aktif;Ya
+M119;3,51;2,92;3,06;2,79;75;4;Hukum;Perempuan;aktif;paruh_waktu;30;8,81;SMA;kota;aktif;Tidak
+M120;2,51;2,2;3,16;2,53;98;3;Hukum;Perempuan;aktif;paruh_waktu;10;8,64;SMA;kota;aktif;Tidak
+M121;3,07;2,24;3,93;3,39;76;1;Teknik Elektro;Perempuan;aktif;paruh_waktu;20;9,84;S1;kota;aktif;Tidak
+M122;2,03;3,29;2,52;2,4;95;2;Hukum;Laki-laki;kurang_aktif;paruh_waktu;20;2,6;SMP;desa;aktif;Tidak
+M123;3,34;2,54;2,13;3,8;50;3;Ilmu Komunikasi;Laki-laki;sangat_aktif;tidak_bekerja;10;9,67;S1;kota;aktif;Tidak
+M124;4;3,32;3,92;3,37;65;1;Hukum;Perempuan;kurang_aktif;penuh_waktu;10;17,33;SD;kota;aktif;Ya
+M125;2,39;2,29;3,72;3,3;62;3;Teknik Elektro;Perempuan;sangat_aktif;penuh_waktu;10;13,92;S1;kota;tidak aktif;Ya
+M126;3,69;2,39;3,31;2,75;60;1;Teknik Elektro;Perempuan;sangat_aktif;paruh_waktu;10;17,83;D3;kota;aktif;Ya
+M127;3,12;2,66;2,14;2,1;63;2;Teknik Elektro;Laki-laki;kurang_aktif;penuh_waktu;20;7,26;S2;kota;tidak aktif;Tidak
+M128;2,56;2,63;2,65;2,97;94;0;Ilmu Komunikasi;Perempuan;aktif;tidak_bekerja;30;7,73;SMA;desa;tidak aktif;Tidak
+M129;3,14;3,85;3,17;2,82;58;5;Sistem Informasi;Perempuan;kurang_aktif;paruh_waktu;0;11,12;S1;kota;tidak aktif;Ya
+M130;2,24;2,02;2,14;2,16;65;2;Sistem Informasi;Laki-laki;aktif;tidak_bekerja;10;11,05;SMP;kota;tidak aktif;Ya
+M131;3,24;3,83;2,28;3,53;56;5;Sistem Informasi;Laki-laki;kurang_aktif;paruh_waktu;10;15,74;SD;desa;aktif;Tidak
+M132;3,57;3,69;2,67;3,78;84;3;Sistem Informasi;Perempuan;aktif;paruh_waktu;10;9,39;D3;kota;aktif;Ya
+M133;2,98;2,73;3,17;3,27;70;2;Hukum;Laki-laki;aktif;paruh_waktu;20;14,15;S1;kota;tidak aktif;Ya
+M134;2,33;2,34;2,31;2,76;73;1;Sistem Informasi;Perempuan;kurang_aktif;penuh_waktu;10;2,35;SMP;desa;aktif;Ya
+M135;2,24;3,33;3,34;2,86;87;5;Teknik Elektro;Laki-laki;sangat_aktif;paruh_waktu;10;18,88;S2;desa;aktif;Ya
+M136;2,63;2,14;3,32;3,58;62;3;Teknik Elektro;Perempuan;aktif;tidak_bekerja;10;9,93;D3;desa;tidak aktif;Ya
+M137;3,19;3,68;3,11;3,44;77;5;Ilmu Komunikasi;Perempuan;aktif;tidak_bekerja;0;5,86;SMA;kota;tidak aktif;Tidak
+M138;2,01;2,91;3,76;2,56;89;5;Sistem Informasi;Perempuan;sangat_aktif;penuh_waktu;10;4,62;D3;desa;aktif;Tidak
+M139;2,89;2,75;2,14;2,25;81;1;Hukum;Laki-laki;kurang_aktif;paruh_waktu;20;15,89;SMP;desa;tidak aktif;Ya
+M140;3,78;2,95;2,27;3,17;85;2;Teknik Elektro;Laki-laki;kurang_aktif;paruh_waktu;30;3,95;S2;desa;aktif;Ya
+M141;3,31;2,01;2,02;3,51;73;4;Teknik Elektro;Laki-laki;kurang_aktif;paruh_waktu;0;19,63;SD;kota;tidak aktif;Ya
+M142;3,78;3,04;3,68;3,08;81;5;Sistem Informasi;Perempuan;kurang_aktif;tidak_bekerja;10;8,31;SMP;kota;tidak aktif;Ya
+M143;3,24;3,55;3,28;3,56;76;5;Hukum;Perempuan;aktif;penuh_waktu;10;8,81;SMP;kota;aktif;Ya
+M144;3,3;2,05;3,57;2,6;66;5;Ilmu Komunikasi;Laki-laki;kurang_aktif;paruh_waktu;20;2,59;SD;kota;aktif;Ya
+M145;2,47;3,79;2,33;3,89;66;1;Ilmu Komunikasi;Perempuan;aktif;penuh_waktu;10;12,87;SD;kota;aktif;Tidak
+M146;2,2;3,39;3,1;2,29;88;1;Hukum;Laki-laki;aktif;tidak_bekerja;30;2,58;SMA;desa;aktif;Tidak
+M147;2,2;2,53;2,01;2,78;92;1;Ilmu Komunikasi;Perempuan;kurang_aktif;penuh_waktu;10;5,88;SD;desa;tidak aktif;Ya
+M148;2,71;2,4;3,17;3,77;89;3;Teknik Elektro;Perempuan;sangat_aktif;tidak_bekerja;30;18,35;D3;desa;aktif;Ya
+M149;2,89;2,91;2,42;2,72;88;0;Hukum;Laki-laki;kurang_aktif;penuh_waktu;10;10,25;S1;desa;tidak aktif;Ya
+M150;2,48;3,45;2,72;2,79;77;2;Hukum;Laki-laki;sangat_aktif;tidak_bekerja;30;19,98;S2;desa;tidak aktif;Tidak
+M151;2,68;2,17;2,23;2,96;51;3;Sistem Informasi;Perempuan;sangat_aktif;paruh_waktu;10;15,8;S2;kota;tidak aktif;Tidak
+M152;3,09;2,02;2,09;2,78;97;2;Sistem Informasi;Perempuan;kurang_aktif;penuh_waktu;30;15,85;S1;desa;tidak aktif;Ya
+M153;3,43;2,02;3,7;2,76;87;3;Hukum;Laki-laki;sangat_aktif;paruh_waktu;0;12,88;SMP;kota;tidak aktif;Tidak
+M154;2,22;2,79;3,95;3,85;59;5;Sistem Informasi;Laki-laki;aktif;penuh_waktu;10;10,27;S1;desa;tidak aktif;Tidak
+M155;2,9;2,31;2,51;3,79;63;2;Ilmu Komunikasi;Perempuan;sangat_aktif;tidak_bekerja;10;8,08;SD;desa;tidak aktif;Tidak
+M156;3,39;3,45;3,24;2,02;55;5;Teknik Elektro;Perempuan;sangat_aktif;paruh_waktu;20;15,15;D3;desa;aktif;Ya
+M157;2,88;3,83;3,88;2,85;60;0;Teknik Elektro;Perempuan;sangat_aktif;paruh_waktu;30;13,61;SMA;desa;tidak aktif;Tidak
+M158;3,18;3,99;3,61;2,1;56;4;Ilmu Komunikasi;Laki-laki;sangat_aktif;tidak_bekerja;30;12,35;SD;desa;aktif;Ya
+M159;3,68;3,14;3,76;3,65;92;1;Sistem Informasi;Perempuan;kurang_aktif;paruh_waktu;20;2,61;S1;kota;tidak aktif;Ya
+M160;3,94;3,51;3,4;2,78;60;3;Ilmu Komunikasi;Perempuan;kurang_aktif;tidak_bekerja;30;15,13;D3;desa;tidak aktif;Ya
+M161;3,49;2,61;3,51;3,31;65;2;Hukum;Laki-laki;kurang_aktif;tidak_bekerja;10;4,92;SMA;desa;aktif;Tidak
+M162;2,64;2,54;2,5;3,72;80;4;Hukum;Laki-laki;aktif;tidak_bekerja;0;13,41;SMP;desa;aktif;Ya
+M163;2,7;3,75;2,11;3,48;90;4;Sistem Informasi;Perempuan;sangat_aktif;paruh_waktu;10;14,59;SD;desa;aktif;Ya
+M164;2,54;3,45;2,36;3,83;70;0;Teknik Elektro;Laki-laki;kurang_aktif;tidak_bekerja;20;13,32;SMP;desa;tidak aktif;Ya
+M165;2,16;2,53;3,99;3,52;66;3;Ilmu Komunikasi;Perempuan;sangat_aktif;paruh_waktu;0;11,91;S2;desa;aktif;Ya
+M166;2,83;3,26;3,18;3,09;82;2;Sistem Informasi;Laki-laki;aktif;paruh_waktu;20;10,68;SD;kota;tidak aktif;Tidak
+M167;3,99;2,82;2,15;3,33;64;1;Teknik Elektro;Laki-laki;sangat_aktif;tidak_bekerja;30;2,88;S1;kota;aktif;Ya
+M168;3,81;3,19;2,52;3,59;55;2;Teknik Elektro;Laki-laki;aktif;tidak_bekerja;10;15,98;SMP;kota;tidak aktif;Ya
+M169;2,5;3,35;3,14;3,38;86;3;Teknik Elektro;Perempuan;aktif;tidak_bekerja;30;17,07;S2;kota;tidak aktif;Ya
+M170;3,15;3,45;2,99;3,31;87;1;Teknik Elektro;Perempuan;sangat_aktif;penuh_waktu;30;17,1;SMP;desa;tidak aktif;Ya
+M171;2,47;3,47;3,98;2,54;58;2;Sistem Informasi;Perempuan;sangat_aktif;paruh_waktu;0;3,71;S2;desa;aktif;Ya
+M172;2,11;3,51;2,84;2,13;51;4;Hukum;Laki-laki;kurang_aktif;tidak_bekerja;20;14,7;SMP;kota;tidak aktif;Ya
+M173;2,65;2,15;2,63;3,89;85;3;Hukum;Perempuan;aktif;penuh_waktu;0;13,72;D3;kota;tidak aktif;Tidak
+M174;3,39;3,3;2,56;3,85;60;4;Teknik Elektro;Perempuan;aktif;penuh_waktu;10;18,57;SMP;kota;aktif;Ya
+M175;3,08;2,97;2,1;2,75;52;4;Hukum;Laki-laki;sangat_aktif;paruh_waktu;20;3,84;SMP;desa;tidak aktif;Tidak
+M176;3,17;2,74;2,68;2,8;78;4;Ilmu Komunikasi;Laki-laki;aktif;penuh_waktu;0;3,96;SMA;kota;tidak aktif;Ya
+M177;2,76;2,12;3,11;3,08;53;2;Ilmu Komunikasi;Perempuan;sangat_aktif;paruh_waktu;20;2,99;S2;kota;aktif;Ya
+M178;2,79;3,39;2,27;2,2;67;1;Hukum;Perempuan;sangat_aktif;paruh_waktu;20;1,42;S2;kota;aktif;Ya
+M179;2,03;2,49;2,97;2,92;83;4;Ilmu Komunikasi;Laki-laki;kurang_aktif;tidak_bekerja;0;13,17;S2;desa;tidak aktif;Ya
+M180;2,75;3,16;3,84;3,71;66;1;Sistem Informasi;Laki-laki;aktif;penuh_waktu;20;5,24;SD;desa;tidak aktif;Ya
+M181;2,37;2,72;3,98;3,12;52;4;Hukum;Perempuan;aktif;tidak_bekerja;0;4,61;S1;kota;aktif;Ya
+M182;2,97;3,99;3,31;2,32;72;1;Hukum;Perempuan;kurang_aktif;penuh_waktu;30;5,97;SMA;desa;aktif;Tidak
+M183;3,66;3,41;3,57;3,31;62;4;Sistem Informasi;Laki-laki;aktif;paruh_waktu;20;18,1;D3;desa;aktif;Ya
+M184;2,69;3,36;3,95;2,37;61;2;Sistem Informasi;Laki-laki;kurang_aktif;penuh_waktu;10;9,01;SMP;desa;aktif;Ya
+M185;2,94;2,66;3,81;3,68;59;2;Sistem Informasi;Perempuan;sangat_aktif;penuh_waktu;20;3,36;SD;desa;aktif;Ya
+M186;2,07;3,37;3,38;3,77;68;5;Teknik Elektro;Laki-laki;aktif;tidak_bekerja;10;2,24;S1;desa;tidak aktif;Tidak
+M187;3,98;3,06;2,23;3,33;66;1;Sistem Informasi;Perempuan;kurang_aktif;paruh_waktu;0;19,57;SMA;desa;aktif;Tidak
+M188;2,39;2,12;3,91;3,82;67;0;Teknik Elektro;Perempuan;aktif;tidak_bekerja;20;13,35;S2;desa;aktif;Ya
+M189;2,77;2,93;2,72;3,95;73;1;Ilmu Komunikasi;Laki-laki;sangat_aktif;penuh_waktu;10;16,03;S2;kota;tidak aktif;Ya
+M190;2,26;3,68;2,17;3,36;79;2;Teknik Elektro;Laki-laki;sangat_aktif;tidak_bekerja;20;5,73;D3;desa;aktif;Tidak
+M191;3,18;2,15;3,2;3,77;75;0;Sistem Informasi;Laki-laki;sangat_aktif;paruh_waktu;10;13,43;S2;kota;tidak aktif;Ya
+M192;2,37;3,89;2,3;3,63;61;5;Sistem Informasi;Perempuan;kurang_aktif;penuh_waktu;10;18,53;D3;desa;tidak aktif;Ya
+M193;2,48;2,53;2,55;3,69;72;4;Hukum;Perempuan;sangat_aktif;penuh_waktu;30;19,32;SMP;desa;tidak aktif;Ya
+M194;3,24;3,77;2,22;2,1;85;3;Hukum;Perempuan;sangat_aktif;penuh_waktu;20;3,28;S1;kota;aktif;Ya
+M195;3,44;2,36;3,4;3,42;93;3;Hukum;Laki-laki;kurang_aktif;tidak_bekerja;20;2,58;SMP;kota;aktif;Ya
+M196;3,63;3,25;2,78;2,53;84;5;Sistem Informasi;Laki-laki;sangat_aktif;penuh_waktu;10;18,87;SMA;kota;tidak aktif;Ya
+M197;2,14;2,57;2,98;2,4;66;3;Teknik Elektro;Laki-laki;kurang_aktif;paruh_waktu;20;9,63;S2;desa;tidak aktif;Tidak
+M198;3,68;3,27;3,1;2,19;66;5;Hukum;Perempuan;kurang_aktif;tidak_bekerja;10;1,93;SMP;desa;aktif;Tidak
+M199;2,1;3,53;2,92;3,78;75;4;Teknik Elektro;Perempuan;kurang_aktif;penuh_waktu;10;2,58;S1;kota;tidak aktif;Ya
