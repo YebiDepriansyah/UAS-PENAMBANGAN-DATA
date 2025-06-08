@@ -136,13 +136,14 @@ Berikut adalah penjelasan singkat mengenai fitur/variabel dalam dataset prediksi
 - Rating Count: Distribusinya sangat condong ke kiri (right-skewed), sebagian besar aplikasi hanya memiliki sedikit rating.
 - Price: Hampir semua aplikasi gratis (harga = 0), hanya sebagian kecil yang memiliki harga tinggi, dan ini menunjukkan adanya outlier.
 
-![Image](https://github.com/user-attachments/assets/f362fb1c-7329-4316-af05-848f92ee6a1b)
+![image](https://github.com/user-attachments/assets/b8de5566-e0d6-4957-89ee-216aed3252b5)
 - **Pairplot**
 - airplot menunjukkan hubungan antar fitur numerik secara visual.
 - Hampir semua kombinasi fitur memiliki pola menyebar luas (tidak linear), dengan beberapa titik ekstrem (outlier).
 - Rating vs Rating Count menunjukkan bahwa meski banyak aplikasi dengan rating bagus, tidak semua mendapat banyak ulasan.
 - Price vs fitur lain terlihat tidak memiliki hubungan yang kuat dan dipenuhi nilai nol.
-![Image](https://github.com/user-attachments/assets/370fbd33-e2d2-44e6-afb1-cb14456db1d6)
+![image](https://github.com/user-attachments/assets/866f2f51-94a7-4b74-af44-7180343aa1b4)
+
 - **Correlation Matrix (Heatmap)**
 - Korelasi antar fitur sangat lemah:
 a. Rating vs Rating Count: 0.01 (hampir tidak ada korelasi)
@@ -150,6 +151,23 @@ b. Rating vs Price: -0.00 (sangat lemah negatif)
 c. Rating Count vs Price: -0.00 juga.
 - Artinya, fitur-fitur numerik ini tidak saling bergantung secara linear, dan bisa dianggap sebagai fitur independen dalam model sederhana.
 - Ini juga memberi sinyal bahwa kamu perlu teknik feature engineering atau transformasi lain jika ingin membangun model yang lebih baik.
+
+![image](https://github.com/user-attachments/assets/75c49f64-a23e-4fce-9288-516c4764b41b)
+
+
+![image](https://github.com/user-attachments/assets/1be4ac13-01b8-4496-a3b4-8724b88baca2)
+
+![image](https://github.com/user-attachments/assets/59a4539a-3a0e-4ed8-a020-3d86f3fd9c6b)
+
+![image](https://github.com/user-attachments/assets/fb0fbd9f-9b8a-45c7-81b0-3bd0970da952)
+
+
+![image](https://github.com/user-attachments/assets/787a05ef-ed2a-4183-a6e5-930fd9b6055f)
+
+
+![image](https://github.com/user-attachments/assets/5f58dd10-0567-4fc6-a306-9e2832d1c833)
+
+
   
 ## Data Preparation
 1. Feature Selection
