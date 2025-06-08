@@ -136,13 +136,13 @@ Berikut adalah penjelasan singkat mengenai fitur/variabel dalam dataset prediksi
 - Rating Count: Distribusinya sangat condong ke kiri (right-skewed), sebagian besar aplikasi hanya memiliki sedikit rating.
 - Price: Hampir semua aplikasi gratis (harga = 0), hanya sebagian kecil yang memiliki harga tinggi, dan ini menunjukkan adanya outlier.
 
-![image](https://github.com/user-attachments/assets/b8de5566-e0d6-4957-89ee-216aed3252b5)
+
 - **Pairplot**
 - airplot menunjukkan hubungan antar fitur numerik secara visual.
 - Hampir semua kombinasi fitur memiliki pola menyebar luas (tidak linear), dengan beberapa titik ekstrem (outlier).
 - Rating vs Rating Count menunjukkan bahwa meski banyak aplikasi dengan rating bagus, tidak semua mendapat banyak ulasan.
 - Price vs fitur lain terlihat tidak memiliki hubungan yang kuat dan dipenuhi nilai nol.
-![image](https://github.com/user-attachments/assets/866f2f51-94a7-4b74-af44-7180343aa1b4)
+
 
 - **Correlation Matrix (Heatmap)**
 - Korelasi antar fitur sangat lemah:
@@ -153,6 +153,163 @@ c. Rating Count vs Price: -0.00 juga.
 - Ini juga memberi sinyal bahwa kamu perlu teknik feature engineering atau transformasi lain jika ingin membangun model yang lebih baik.
 
 ![image](https://github.com/user-attachments/assets/7f97abbd-60b7-4eb6-981d-ea557dc83237)
+
+1. prodi (Program Studi)
+Menunjukkan jumlah mahasiswa berdasarkan program studi.
+
+Tiga prodi terbanyak: Hukum, Sistem Informasi, dan Ilmu Komunikasi.
+
+Tiga prodi tersedikit: Matematika, Informatika, dan Kedokteran.
+
+2. jenis_kelamin
+Mayoritas mahasiswa adalah Perempuan, melebihi jumlah Laki-laki.
+
+3. aktivitas_lms (Aktivitas di Learning Management System)
+Kategori paling banyak: aktif
+
+Disusul oleh: sedang, sangat_aktif, pasif, dan paling sedikit kurang_aktif
+
+Menunjukkan sebagian besar mahasiswa cukup terlibat dalam LMS.
+
+4. status_pekerjaan
+Mayoritas mahasiswa tidak bekerja.
+
+Sebagian bekerja paruh waktu, dan paling sedikit bekerja penuh waktu.
+
+5. pendidikan_ortu (Tingkat Pendidikan Orang Tua)
+Mayoritas orang tua lulusan SMA, diikuti oleh SMP dan S1.
+
+Sangat sedikit yang hanya lulusan SD atau D3.
+
+6. lokasi_tinggal
+Mahasiswa hampir seimbang antara yang tinggal di kota dan desa.
+
+7. keterlibatan_organisasi
+Jumlah mahasiswa yang tidak aktif organisasi sedikit lebih banyak daripada yang aktif.
+
+8. status_DO (Drop Out)
+Mayoritas mahasiswa tidak DO.
+
+Ada sebagian mahasiswa yang DO, namun jumlahnya lebih kecil secara signifikan.
+
+![image](https://github.com/user-attachments/assets/8fd3ed83-c61b-437e-af93-1c8494007f56)
+
+Gambar ini menampilkan distribusi dari fitur numerik mahasiswa dalam bentuk histogram. Setiap subplot menggambarkan sebaran nilai dari satu fitur. Berikut adalah penjelasan tiap fitur:
+
+1. ipk_sem1, ipk_sem2, ipk_sem3, ipk_sem4
+Distribusi IPK dari semester 1 hingga 4.
+
+Sebagian besar mahasiswa memiliki IPK di antara 2.5 – 3.5.
+
+Distribusinya cenderung normal (berbentuk lonceng) namun sedikit condong ke kiri (left-skewed).
+
+Menunjukkan performa akademik cenderung stabil dari semester 1 hingga 4.
+
+2. kehadiran_rata2
+Persentase kehadiran kuliah.
+
+Sebagian besar mahasiswa memiliki tingkat kehadiran di atas 70%, banyak yang mendekati 100%.
+
+Ada juga yang rendah (<60%), tetapi lebih jarang.
+
+Ini bisa berkorelasi positif dengan IPK.
+
+3. matkul_diulang
+Jumlah mata kuliah yang diulang oleh mahasiswa.
+
+Banyak mahasiswa yang mengulang 1–4 matkul.
+
+Mahasiswa yang tidak mengulang (0) cukup banyak, dan sedikit yang mengulang hingga 5 matkul.
+
+4. beban_kerja
+Sebagian besar mahasiswa memiliki beban kerja 0, artinya tidak bekerja sambil kuliah.
+
+Sisanya tersebar di angka 5 hingga 40 jam/minggu, tetapi jumlahnya jauh lebih kecil.
+
+Hal ini sejalan dengan data kategori sebelumnya (status_pekerjaan) yang menunjukkan banyak mahasiswa tidak bekerja.
+
+5. pendapatan_ortu
+Data ini diskalakan (kemungkinan dalam jutaan atau rentang kategori).
+
+Distribusinya cukup merata dengan sedikit konsentrasi di tengah (sekitar 5–15).
+
+Hanya sedikit mahasiswa dari keluarga dengan pendapatan sangat rendah atau sangat tinggi.
+
+
+
+![image](https://github.com/user-attachments/assets/258c0c82-482f-41e5-a294-bd0e3eddffeb)
+
+Gambar ini menampilkan rata-rata jumlah mata kuliah yang diulang (matkul_diulang) terhadap berbagai variabel kategorikal. Setiap subplot merupakan hasil agregasi rata-rata untuk masing-masing kategori, yang membantu kita memahami faktor-faktor yang mungkin berkaitan dengan pengulangan mata kuliah.
+
+Berikut adalah interpretasi tiap subplot:
+
+1. Program Studi (prodi)
+Prodi seperti Teknik Elektro, Teknik Sipil, dan Sistem Informasi memiliki rata-rata matkul_diulang tertinggi (>2.5).
+
+Prodi seperti Matematika dan Manajemen menunjukkan rata-rata terendah.
+
+Ini bisa mengindikasikan tingkat kesulitan atau beban akademik berbeda antar prodi.
+
+2. Jenis Kelamin
+Mahasiswa laki-laki cenderung mengulang lebih banyak mata kuliah dibanding perempuan.
+
+Perbedaan ini tidak terlalu besar tetapi konsisten.
+
+3. Aktivitas LMS
+Mahasiswa yang sangat aktif atau aktif di LMS cenderung lebih sedikit mengulang dibanding yang pasif dan kurang aktif.
+
+Ini menunjukkan bahwa keterlibatan dalam pembelajaran online berkorelasi dengan performa akademik.
+
+4. Status Pekerjaan
+Mahasiswa dengan pekerjaan penuh waktu mengulang paling banyak mata kuliah.
+
+Yang tidak bekerja mengulang paling sedikit, menunjukkan bahwa beban kerja luar kampus mempengaruhi performa.
+
+5. Pendidikan Orang Tua
+Mahasiswa dari orang tua berpendidikan S1 dan S2 cenderung mengulang lebih sedikit.
+
+Yang berasal dari latar belakang pendidikan D3, SD, atau SMP cenderung lebih banyak mengulang.
+
+Ini bisa berkaitan dengan dukungan akademik atau sosial dari rumah.
+
+6. Lokasi Tinggal
+Tidak ada perbedaan mencolok antara tinggal di kota atau desa.
+
+Rata-rata matkul_diulang hampir sama.
+
+7. Keterlibatan Organisasi
+Mahasiswa aktif di organisasi sedikit lebih banyak mengulang dibanding yang tidak aktif.
+
+Bisa jadi karena waktu belajar terbagi, atau karena beban non-akademik.
+
+8. Status DO
+Mahasiswa yang terancam atau terkena DO memiliki rata-rata matkul_diulang yang lebih tinggi.
+
+Hal ini sangat masuk akal, karena banyaknya pengulangan bisa menyebabkan akumulasi nilai buruk dan akhirnya DO.
+
+![image](https://github.com/user-attachments/assets/e678857c-519b-4337-b97e-138573f8ba5a)
+
+Faktor-faktor yang cenderung meningkatkan rata-rata matkul_diulang:
+
+Prodi teknikal (seperti Elektro, Sipil)
+
+Jenis kelamin laki-laki
+
+Aktivitas LMS rendah
+
+Mahasiswa bekerja penuh waktu
+
+Orang tua berpendidikan rendah
+
+Keterlibatan organisasi
+
+Status DO
+
+![image](https://github.com/user-attachments/assets/3f178208-c7cb-43b9-bf52-415f39bed344)
+
+Dari hasilnya, terlihat bahwa hubungan antara matkul_diulang dengan fitur-fitur lain sangat lemah. Misalnya, nilai IPK dari semester 1 sampai 4 hanya punya korelasi sangat kecil terhadap matkul_diulang. Korelasinya ada yang sedikit positif (seperti IPK semester 3), ada juga yang sedikit negatif (seperti IPK semester 1), tapi semua nilainya sangat mendekati nol.
+
+Artinya, tinggi atau rendahnya IPK tidak banyak berpengaruh secara langsung terhadap jumlah mata kuliah yang diulang, setidaknya jika dilihat dari hubungan linier. Hal yang sama juga berlaku untuk kehadiran rata-rata, beban kerja, dan pendapatan orang tua — semuanya hampir tidak menunjukkan hubungan yang kuat dengan matkul_diulang.
 
 
   
